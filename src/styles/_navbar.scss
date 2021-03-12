@@ -1,0 +1,147 @@
+
+.Navbar-holder{
+    width: clamp(220px,16%,16%);
+    height: 100vh;
+    background-color: var(--dark-gray-color);
+    position: fixed;
+    z-index: 11;
+    border-right: 3px solid var(--gray-color);
+    transform-origin: left;
+    @media screen and (max-width: 62.5em){ // 1000px
+        transition: all .4s ease-in-out;
+        transform: translateX(-100%);
+    }
+    .Navbar{
+        height: 100vh;
+        .nav{
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+    
+            .profile{
+                width: 100%;
+                text-align: center;
+                margin-top: 1rem;
+                border-bottom: 3px solid var(--gray-color);
+                img{
+                    width: 87%;
+                    border-radius: 100%;
+                    border: 3px solid var(--gray-color);
+                    margin-bottom: 1rem;
+                }
+            }
+    
+            .nav-items{
+                width: 100%;
+                .nav-item{
+                    list-style: none;
+                    text-align: center;
+                    a{
+                        text-decoration: none;
+                        font-size: inherit;
+                        color: inherit;
+                        display: block;
+                        padding: 0.9rem 0;
+                        position: relative;
+                        &::before{
+                            content: "";
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            height: 100%;
+                            background-color: var(--gray-color);
+                            overflow-x: hidden;
+                            z-index: -1;
+                        }
+                        &:hover::before{
+                            width: 100%;
+                            border-top: 1px solid var(--orange-color);
+                            border-bottom: 1px solid var(--orange-color);
+                        }
+                    }
+                    .active{
+                        background-color: var(--orange-color);
+                        border-bottom: 2px solid var(--orange-color); 
+                    }
+                }
+            }
+
+            .fa-angle-left {
+                cursor: pointer;
+                display: none;
+                font-size: 60px;
+                color: var(--gray-color);
+                animation: fadein 1.2s;
+                @media screen and (max-width: 62.5em){ //1000em
+                    display: block;
+                    transition: opacity 2s ease-in;
+    
+                    @keyframes fadein {
+                        from { opacity: 0; }
+                        to   { opacity: 1; }
+                    }
+                }
+            }
+    
+            .footer{
+                width: 100%;
+                border-top: 3px solid var(--gray-color);
+                p{
+                    text-align: center;
+                    padding: 1rem 0;
+                }
+            }
+        }
+    }
+}
+   
+.nav-toggle{
+    @media screen and (max-width: 62.5em){ // 1000px
+        transition: all .4s ease-in-out;
+        transform: translateX(0);
+    }
+}
+
+.nav-btn{
+    position: absolute;
+    z-index: 10;
+    right: 10%;
+    top: 5%;
+    width: 4rem;
+    display: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    &:hover .lines-1 {
+        transition: all .2s ease-in-out;
+        background: var(--orange-color);
+    }
+    &:hover .lines-2 {
+        transition: all .2s ease-in-out;
+        background: var(--orange-color);
+    }
+    &:hover .lines-3 {
+        transition: all .2s ease-in-out;
+        background: var(--orange-color);
+    }
+    .lines-1, .lines-2, .lines-3{
+        height: .5rem;
+        width: 100%;
+        border: 1px solid var(--orange-color);
+        background-color: var(--gray-color);
+        pointer-events: none;
+        display: none;
+        &:not(:last-child){
+            margin-bottom: .5rem;
+        }
+    }
+    @media screen and (max-width: 62.5em){ // 1000px
+        display: block;
+        .lines-1, .lines-2, .lines-3{
+            display: block;
+        }
+    }
+}
