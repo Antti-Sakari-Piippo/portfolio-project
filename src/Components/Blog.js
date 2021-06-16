@@ -1,12 +1,4 @@
-import {
-  Link,
-  Route,
-  Switch,
-  useParams,
-  useRouteMatch,
-} from "react-router-dom";
-import blogs from "../data/allBlogs";
-import allBlogs from "../data/allBlogs";
+import { Link, useParams } from "react-router-dom";
 
 function Blog({ key, image, title }) {
   const { id } = useParams();
