@@ -1,11 +1,5 @@
 import { useState } from "react";
-import {
-  generatePath,
-  Route,
-  useHistory,
-  useRouteMatch,
-} from "react-router-dom";
-import Blog from "../Components/Blog";
+import { generatePath, Route, useHistory, useRouteMatch } from "react-router-dom";
 import Tittle from "../Components/Tittle";
 import allBlogs from "../data/allBlogs";
 
@@ -18,7 +12,14 @@ function BlogsPage() {
       <div className="BlogsPage">
         {allBlogs.map((blog) => {
           return (
-            <Blog link={blog.link} image={blog.image} title={blog.title} />
+            <div className="blog" key={blog.id}>
+              <div className="blog-content">
+                <img src={blog.image} alt="" />
+                <a href={blog.link} className="blog-link">
+                  {blog.title}
+                </a>
+              </div>
+            </div>
           );
         })}
       </div>
