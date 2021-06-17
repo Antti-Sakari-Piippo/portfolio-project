@@ -7,56 +7,56 @@ import { faGithub, faYoutube } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const portfolios = [
-  {
-    id: 1,
-    category: "Python",
-    link1: "www.youtube.com",
-    link2: "www.github.com",
-    icon1: <FontAwesomeIcon icon={faGithub} />,
-    icon2: <FontAwesomeIcon icon={faYoutube} />,
-    image: port1,
-    title: "Python Web Project",
-  },
-  {
-    id: 2,
-    category: "Javascript",
-    link1: "www.youtube.com",
-    link2: "www.github.com",
-    icon1: <FontAwesomeIcon icon={faGithub} />,
-    icon2: <FontAwesomeIcon icon={faYoutube} />,
-    image: port2,
-    title: "Vanilla Javascript Website",
-  },
-  {
-    id: 3,
-    category: "React Js",
-    link1: "www.youtube.com",
-    link2: "www.github.com",
-    icon1: <FontAwesomeIcon icon={faGithub} />,
-    icon2: <FontAwesomeIcon icon={faYoutube} />,
-    image: port3,
-    title: "React project",
-  },
-  {
-    id: 4,
-    category: "CSS",
-    link1: "www.youtube.com",
-    link2: "www.github.com",
-    icon1: <FontAwesomeIcon icon={faGithub} />,
-    icon2: <FontAwesomeIcon icon={faYoutube} />,
-    image: port4,
-    title: "Vanilla HTML and CSS project",
-  },
-  {
-    id: 5,
-    category: "Test Port",
-    link1: "www.youtube.com",
-    link2: "www.github.com",
-    icon1: <FontAwesomeIcon icon={faGithub} />,
-    icon2: <FontAwesomeIcon icon={faYoutube} />,
-    image: port5,
-    title: "Test Port",
-  },
+	{
+		id: 1,
+		category: "Python",
+		link1: "www.youtube.com",
+		link2: "www.github.com",
+		icon1: <FontAwesomeIcon icon={faGithub} />,
+		icon2: <FontAwesomeIcon icon={faYoutube} />,
+		image: port1,
+		title: "Python Web Project"
+	},
+	{
+		id: 2,
+		category: "Javascript",
+		link1: "www.youtube.com",
+		link2: "www.github.com",
+		icon1: <FontAwesomeIcon icon={faGithub} />,
+		icon2: <FontAwesomeIcon icon={faYoutube} />,
+		image: port2,
+		title: "Vanilla Javascript Website"
+	},
+	{
+		id: 3,
+		category: "React Js",
+		link1: "www.youtube.com",
+		link2: "www.github.com",
+		icon1: <FontAwesomeIcon icon={faGithub} />,
+		icon2: <FontAwesomeIcon icon={faYoutube} />,
+		image: port3,
+		title: "React project"
+	},
+	{
+		id: 4,
+		category: "CSS",
+		link1: "www.youtube.com",
+		link2: "www.github.com",
+		icon1: <FontAwesomeIcon icon={faGithub} />,
+		icon2: <FontAwesomeIcon icon={faYoutube} />,
+		image: port4,
+		title: "Vanilla HTML and CSS project"
+	},
+	{
+		id: 5,
+		category: "MYSQL",
+		link1: "www.youtube.com",
+		link2: "www.github.com",
+		icon1: <FontAwesomeIcon icon={faGithub} />,
+		icon2: <FontAwesomeIcon icon={faYoutube} />,
+		image: port5,
+		title: "MySQL"
+	}
 ];
 
 export default portfolios;
