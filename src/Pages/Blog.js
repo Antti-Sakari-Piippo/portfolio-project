@@ -13,11 +13,3 @@ export const Blog = ({ blogItem }) => {
 		</div>
 	);
 };
-
-// id: 1,
-// image: blog,
-// title: "Lorem ipsum dolor sit amet consectetur",
-// link: "https://www.facebook.com/",
-// date: "21",
-// month: "Mar",
-// year: "2021",
