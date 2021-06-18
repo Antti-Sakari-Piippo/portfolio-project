@@ -37,7 +37,7 @@ const blogs = [
 	{
 		id: 4,
 		image: blog,
-		title: "Lorem ipsum dolor sit amet consectetur",
+		title: "Fourth title",
 		text:
 			"Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur",
 		link: "https://www.facebook.com/",
@@ -48,7 +48,7 @@ const blogs = [
 	{
 		id: 5,
 		image: blog,
-		title: "Lorem ipsum dolor sit amet consectetur",
+		title: "Fifth title",
 		text:
 			"Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur",
 		link: "https://www.facebook.com/",
@@ -59,7 +59,7 @@ const blogs = [
 	{
 		id: 6,
 		image: blog,
-		title: "Lorem ipsum dolor sit amet consectetur",
+		title: "Sixth title",
 		text:
 			"Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur",
 		link: "https://www.facebook.com/",
