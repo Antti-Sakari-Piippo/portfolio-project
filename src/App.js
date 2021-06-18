@@ -1,28 +1,39 @@
-import './App.scss';
-import Navbar from './Components/Navbar';
-import HomePage from './Pages/HomePage';
-import { Switch, Route, useParams } from 'react-router-dom';
-import AboutPage from './Pages/AboutPage';
-import PortfoliosPage from './Pages/PortfoliosPage';
-import BlogsPage from './Pages/BlogsPage';
-import ContactPage from './Pages/ContactPage';
-import { useState } from 'react';
-import Particles from 'react-particles-js';
+import "./App.scss";
+import Navbar from "./Components/Navbar";
+import HomePage from "./Pages/HomePage";
+import { Switch, Route, useParams } from "react-router-dom";
+import AboutPage from "./Pages/AboutPage";
+import PortfoliosPage from "./Pages/PortfoliosPage";
+import BlogsPage from "./Pages/BlogsPage";
+import ContactPage from "./Pages/ContactPage";
+import { useState } from "react";
+import Particles from "react-particles-js";
+import { Blog } from "./Pages/Blog";
+import blogs from "./data/allBlogs";
+
+const blogsArray = [ ...blogs.map((item) => item) ];
 
 function App() {
-	const { id } = useParams();
 	const [ toggle, setToggle ] = useState(false);
+	const [ blogItem, setBlogItem ] = useState(blogsArray[0]);
+	const { id } = useParams();
 
 	const navToggle = () => {
 		setToggle(!toggle);
 	};
 
+	const correctBlogF = (blogs) => {
+		const correctBlog = blogsArray.filter((item) => {
+			return item.blogs === blogs;
+		});
+		setBlogItem(correctBlog);
+	};
+
 	return (
 		<div className="App">
-			<div className={`Navbar-holder ${toggle ? 'nav-toggle' : ''}`}>
+			<div className={`Navbar-holder ${toggle ? "nav-toggle" : ""}`}>
 				<Navbar navToggle={navToggle} />
 			</div>
-
 			<div className="nav-btn" onClick={navToggle}>
 				<div className="lines-1" />
 				<div className="lines-2" />
@@ -44,10 +55,10 @@ function App() {
 											}
 										},
 										shape: {
-											type: 'circle',
+											type: "circle",
 											stroke: {
 												width: 10,
-												color: '#E87A00'
+												color: "#E87A00"
 											}
 										}
 									}
@@ -62,9 +73,15 @@ function App() {
 							<PortfoliosPage />
 						</Route>
 						<Route path="/blogs" exact>
-							<BlogsPage />
+							<BlogsPage correctBlogF={correctBlogF} blogItem={blogItem} blogsArray={blogsArray} />
 						</Route>
-						<Route path="/blogs/:id" />
+					</Switch>
+					<Switch>
+						<Route exact path="/blogs/:id">
+							<Blog blogItem={blogItem} />
+						</Route>
+					</Switch>
+					<Switch>
 						<Route path="/contact" exact>
 							<ContactPage />
 						</Route>
