@@ -11,7 +11,7 @@ export const BlogItem = ({ blogItem, correctBlogF, blog }) => {
 				<div className="blog">
 					<div className="blog-content">
 						<img src={blog.image} alt="" />
-						{blog.title}
+						<p>{blog.title}</p>
 					</div>
 				</div>
 			</Link>
