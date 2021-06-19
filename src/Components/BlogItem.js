@@ -1,20 +1,15 @@
 import React from "react";
-import { Link, useParams } from "react-router-dom";
-import blogs from "../data/allBlogs";
+import { Link } from "react-router-dom";
 
-const blogsArray = [ ...blogs.map((item) => item) ];
-
-export const BlogItem = ({ blogItem, correctBlogF, blog }) => {
+export const BlogItem = ({ blog }) => {
 	return (
-		<div>
-			<Link to={`/blogs/${blog.id}`} className="blog-link">
-				<div className="blog">
-					<div className="blog-content">
-						<img src={blog.image} alt="" />
-						<p>{blog.title}</p>
-					</div>
+		<Link to={`/blogs/${blog.id}`} className="blog-link">
+			<div className="blogItem">
+				<div className="blog-content">
+					<img src={blog.image} alt="" />
+					<p>{blog.title}</p>
 				</div>
-			</Link>
-		</div>
+			</div>
+		</Link>
 	);
 };
