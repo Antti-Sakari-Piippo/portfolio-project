@@ -1,19 +1,19 @@
-import { useState } from "react";
-// import { generatePath, Route, useHistory, useRouteMatch } from "react-router-dom";
 import Tittle from "../Components/Tittle";
-import { useParams, BrowserRouter as Router, Link, Switch } from "react-router-dom";
 import { BlogItem } from "../Components/BlogItem";
 
-function BlogsPage({ correctBlogF, blogsArray, blogItem }) {
-	const { id } = useParams();
+function BlogsPage({ blogsArray }) {
 	return (
-		<div>
+		<div className="BlogsPage">
 			<div className="b-title">
 				<Tittle title={"Recent Blogs"} span={"Recent Blogs"} />
 			</div>
-			<div className="BlogsPage">
+			<div className="BlogsArray">
 				{blogsArray.map((blog) => {
-					return <BlogItem onClick={() => correctBlogF(blogsArray)} blog={blog} blogItem={blog} />;
+					return (
+						<div>
+							<BlogItem blog={blog} />
+						</div>
+					);
 				})}
 			</div>
 		</div>
