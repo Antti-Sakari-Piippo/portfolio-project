@@ -1,7 +1,7 @@
 import "./App.scss";
 import Navbar from "./Components/Navbar";
 import HomePage from "./Pages/HomePage";
-import { Switch, Route, useParams } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 import AboutPage from "./Pages/AboutPage";
 import PortfoliosPage from "./Pages/PortfoliosPage";
 import BlogsPage from "./Pages/BlogsPage";
@@ -15,18 +15,9 @@ const blogsArray = [ ...blogs.map((item) => item) ];
 
 function App() {
 	const [ toggle, setToggle ] = useState(false);
-	const [ blogItem, setBlogItem ] = useState(blogsArray[0]);
-	const { id } = useParams();
 
 	const navToggle = () => {
 		setToggle(!toggle);
-	};
-
-	const correctBlogF = (blogs) => {
-		const correctBlog = blogsArray.filter((item) => {
-			return item.blogs === blogs;
-		});
-		setBlogItem(correctBlog);
 	};
 
 	return (
@@ -73,12 +64,12 @@ function App() {
 							<PortfoliosPage />
 						</Route>
 						<Route path="/blogs" exact>
-							<BlogsPage correctBlogF={correctBlogF} blogItem={blogItem} blogsArray={blogsArray} />
+							<BlogsPage blogsArray={blogsArray} />
 						</Route>
 					</Switch>
 					<Switch>
-						<Route exact path="/blogs/:id">
-							<Blog blogItem={blogItem} />
+						<Route exact path="/blogs/:slug">
+							<Blog />
 						</Route>
 					</Switch>
 					<Switch>
