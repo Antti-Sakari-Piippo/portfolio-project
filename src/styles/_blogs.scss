@@ -1,4 +1,4 @@
-.BlogsPage {
+.BlogsArray {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-gap: 2.5rem;
@@ -7,7 +7,7 @@
 		grid-template-columns: repeat(1, 1fr);
 		grid-gap: 2rem;
 	}
-	.blog {
+	.blogItem {
 		width: 100%;
 		padding: 0.5rem;
 		background-color: var(--gray-color);
@@ -54,7 +54,6 @@
 		margin: 1rem 0;
 	}
 }
-
 .blog-title .b-title {
 	margin-bottom: 4rem;
 	white-space: nowrap;
