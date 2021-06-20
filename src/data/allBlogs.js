@@ -4,67 +4,67 @@ const blogs = [
 	{
 		id: 1,
 		image: blog,
-		title: "First Title",
+		title: "First blog",
 		text:
-			"Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur",
+			'"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness..."',
 		link: "https://www.facebook.com/",
-		date: "21",
-		month: "Mar",
+		date: "8",
+		month: "March",
 		year: "2021"
 	},
 	{
 		id: 2,
 		image: blog,
-		title: "Second Title",
+		title: "Second blog",
 		text:
-			"Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur",
+			'"No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful..."',
 		link: "https://www.facebook.com/",
-		date: "09",
-		month: "Dec",
+		date: "12",
+		month: "June",
 		year: "2021"
 	},
 	{
 		id: 3,
 		image: blog,
-		title: "Third title",
+		title: "Third blog",
 		text:
-			"Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur",
+			'"Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure..."',
 		link: "https://www.facebook.com/",
-		date: "15",
-		month: "Jun",
+		date: "24",
+		month: "july",
 		year: "2019"
 	},
 	{
 		id: 4,
 		image: blog,
-		title: "Fourth title",
+		title: "Fourth blog",
 		text:
-			"Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur",
+			'"To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?" - "de Finibus Bonorum et Malorum" by Cicero in 45 BC',
 		link: "https://www.facebook.com/",
-		date: "04",
-		month: "Aug",
+		date: "8",
+		month: "August",
 		year: "2020"
 	},
 	{
 		id: 5,
 		image: blog,
-		title: "Fifth title",
+		title: "Fifth blog",
 		text:
-			"Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur",
+			'"On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain..."',
 		link: "https://www.facebook.com/",
-		date: "09",
-		month: "Sep",
+		date: "21",
+		month: "September",
 		year: "2020"
 	},
 	{
 		id: 6,
 		image: blog,
-		title: "Sixth title",
+		title: "Sixth blog",
 		text:
-			"Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur",
+			'"These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains."  - "de Finibus Bonorum et Malorum" by Cicero in 45 BC',
 		link: "https://www.facebook.com/",
-		date: "09",
-		month: "Sep",
+		date: "16",
+		month: "November",
 		year: "2020"
 	}
 ];
