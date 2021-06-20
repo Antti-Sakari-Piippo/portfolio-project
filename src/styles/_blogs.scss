@@ -1,4 +1,4 @@
-.BlogsArray {
+.blogs {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-gap: 2.5rem;
@@ -7,54 +7,105 @@
 		grid-template-columns: repeat(1, 1fr);
 		grid-gap: 2rem;
 	}
-	.blogItem {
-		width: 100%;
-		padding: 0.5rem;
-		background-color: var(--gray-color);
-		border: 1px solid var(--orange-color);
+}
+
+.blogItem {
+	padding: 0.5rem;
+	background-color: var(--gray-color);
+	border: 1px solid var(--orange-color);
+	overflow: hidden;
+	.blog-content {
 		overflow: hidden;
-		.blog-content {
-			overflow: hidden;
+		img {
+			width: 100%;
+			transition: all .15s ease-in-out;
+			&:hover {
+				transform: scale(1.1);
+			}
 			padding-bottom: 2rem;
-			img {
-				width: 100%;
-				transition: all .15s ease-in-out;
-				&:hover {
-					transform: scale(1.1);
-				}
-				padding-bottom: 2rem;
-			}
-			a {
-				text-decoration: none;
-				color: white;
-			}
-			p {
-				color: white;
-			}
-			.blog-link {
-				color: inherit;
-				font-family: inherit;
-				text-decoration: none;
-				font-size: 2rem;
-				padding-bottom: 2rem;
-				transition: all .2s ease-in-out;
-				&:hover {
-					color: var(--orange-color);
-				}
-			}
 		}
 	}
 }
 
-.blog-item {
-	.blog-title {
-		margin: 1rem 0;
-	}
-	.blog-text {
-		margin: 1rem 0;
+.blog-link {
+	color: var(--main-font-color);
+	font-family: inherit;
+	text-decoration: none;
+	padding-bottom: 2rem;
+	transition: all .2s ease-in-out;
+	&:hover {
+		color: var(--orange-color);
 	}
 }
-.blog-title .b-title {
-	margin-bottom: 4rem;
-	white-space: nowrap;
+.blogList {
+	margin: auto;
+	h4 {
+		margin-bottom: .3rem;
+		font-family: inherit;
+	}
+	p.blog-link {
+		color: var(--main-font-color);
+		padding: .2rem;
+		&:hover {
+			color: var(--orange-color);
+		}
+	}
+}
+
+.blog-title {
+	margin: 1rem 0;
+}
+
+.blog-item {
+	display: flex;
+	flex-wrap: wrap;
+	.wrapper-left {
+		img {
+			max-width: 70vw;
+		}
+		.blog-text {
+			margin: 1rem 0;
+			display: flex;
+			max-width: 60ch;
+		}
+		.blog-date {
+			font-style: oblique;
+		}
+		.button {
+			display: inline-block;
+			padding: .1rem .5rem;
+			border: 1px solid white;
+			cursor: pointer;
+			transition: all .15s ease-in-out;
+			&:hover {
+				transition: all .2s ease-in-out;
+				color: var(--main-font-color);
+				background-color: var(--orange-color);
+			}
+			i {
+				padding: 0.1rem 0.3rem 0.1rem 0.1rem;
+			}
+			&.blog-link {
+				margin-bottom: 2rem;
+			}
+		}
+	}
+	.wrapper-right {
+		.BlockList {
+			margin-left: 1.5rem;
+		}
+		p {
+			font-size: 1rem;
+		}
+		@media only screen and (max-width: 1300px) {
+			margin: 0 auto;
+		}
+	}
+}
+
+.BlogsPage {
+	.blog-title {
+		margin-bottom: 4rem;
+		white-space: nowrap;
+	}
 }
