@@ -1,15 +1,14 @@
-import React from "react";
 import { Link } from "react-router-dom";
 
 export const BlogItem = ({ blog }) => {
 	return (
-		<Link to={`/blogs/${blog.id}`} className="blog-link">
-			<div className="blogItem">
-				<div className="blog-content">
-					<img src={blog.image} alt="" />
-					<p>{blog.title}</p>
-				</div>
+		<div className="blogItem">
+			<div className="blog-content">
+				<Link to={`/blogs/${blog.id}`}>
+					<img src={blog.image} alt="blog" />
+					<p className="blog-link">{blog.title}</p>
+				</Link>
 			</div>
-		</Link>
+		</div>
 	);
 };
