@@ -8,33 +8,6 @@
 	.buttons {
 		grid-template-columns: repeat(5, 1fr);
 	}
-	// @media screen and (max-width: 118.75em) {
-	// 	//1900px
-	// 	.buttons {
-	// 		grid-template-columns: repeat(4, 1fr);
-	// 	}
-	// }
-	// @media screen and (max-width: 100em) {
-	// 	//1600px
-	// 	.buttons {
-	// 		grid-template-columns: repeat(3, 1fr);
-	// 		margin-right: 0;
-	// 	}
-	// }
-	// @media screen and (max-width: 100em) {
-	// 	//1100px
-	// 	.buttons {
-	// 		grid-template-columns: repeat(2, 1fr);
-	// 		margin-right: 0;
-	// 	}
-	// }
-	// @media screen and (max-width: 37.5em) {
-	// 	//600px
-	// 	.buttons {
-	// 		grid-template-columns: repeat(1, 1fr);
-	// 		margin-right: 0;
-	// 	}
-	// }
 }
 
 .portfolios {
@@ -124,7 +97,7 @@
 		h5 {
 			font-size: 1.7rem;
 			font-weight: 400;
-			color: white;
+			color: var(--main-font-color);
 			transition: all 0.3s ease-in-out;
 			&:hover {
 				cursor: pointer;
