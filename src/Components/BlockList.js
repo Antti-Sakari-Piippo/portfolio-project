@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 
 export const BlockList = () => {
 	const blogsArray = [ ...blogs.map((item) => item) ];
-	const cars = [ "BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi" ];
 
 	return (
 		<div className="blogList">
