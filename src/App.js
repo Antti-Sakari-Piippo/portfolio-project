@@ -9,10 +9,8 @@ import ContactPage from "./Pages/ContactPage";
 import { useState } from "react";
 import Particles from "react-particles-js";
 import { Blog } from "./Pages/Blog";
-import blogs from "./data/allBlogs";
 
 const App = () => {
-	const blogsArray = [ ...blogs.map((item) => item) ];
 	const [ toggle, setToggle ] = useState(false);
 
 	const navToggle = () => {
@@ -63,7 +61,7 @@ const App = () => {
 							<PortfoliosPage />
 						</Route>
 						<Route path="/blogs" exact>
-							<BlogsPage blogsArray={blogsArray} />
+							<BlogsPage />
 						</Route>
 					</Switch>
 					<Switch>

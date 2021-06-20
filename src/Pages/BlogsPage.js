@@ -1,7 +1,9 @@
 import Tittle from "../Components/Tittle";
 import { BlogItem } from "../Components/BlogItem";
+import blogs from "../data/allBlogs";
 
-function BlogsPage({ blogsArray }) {
+function BlogsPage() {
+	const blogsArray = [ ...blogs.map((item) => item) ];
 	return (
 		<div className="BlogsPage">
 			<div className="blogs-title">
