@@ -22,8 +22,11 @@
 			&:hover {
 				transform: scale(1.1);
 			}
-			padding-bottom: 2rem;
 		}
+	}
+	.excerpt {
+		font-size: 0.8rem;
+		color: var(--main-font-color);
 	}
 }
 
@@ -31,12 +34,12 @@
 	color: var(--main-font-color);
 	font-family: inherit;
 	text-decoration: none;
-	padding-bottom: 2rem;
 	transition: all .2s ease-in-out;
 	&:hover {
 		color: var(--orange-color);
 	}
 }
+
 .blogList {
 	margin: auto;
 	h4 {
