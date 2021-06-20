@@ -11,9 +11,8 @@ import Particles from "react-particles-js";
 import { Blog } from "./Pages/Blog";
 import blogs from "./data/allBlogs";
 
-const blogsArray = [ ...blogs.map((item) => item) ];
-
-function App() {
+const App = () => {
+	const blogsArray = [ ...blogs.map((item) => item) ];
 	const [ toggle, setToggle ] = useState(false);
 
 	const navToggle = () => {
@@ -81,6 +80,6 @@ function App() {
 			</div>
 		</div>
 	);
-}
+};
 
 export default App;
