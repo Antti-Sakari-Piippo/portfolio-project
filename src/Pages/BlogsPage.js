@@ -11,7 +11,7 @@ function BlogsPage({ blogsArray }) {
 				{blogsArray.map((blog) => {
 					return (
 						<div>
-							<BlogItem blog={blog} blogsArray={blogsArray} />
+							<BlogItem blog={blog} />
 						</div>
 					);
 				})}
