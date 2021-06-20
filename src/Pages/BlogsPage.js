@@ -4,14 +4,14 @@ import { BlogItem } from "../Components/BlogItem";
 function BlogsPage({ blogsArray }) {
 	return (
 		<div className="BlogsPage">
-			<div className="b-title">
+			<div className="blogs-title">
 				<Tittle title={"Recent Blogs"} span={"Recent Blogs"} />
 			</div>
-			<div className="BlogsArray">
+			<div className="blogs">
 				{blogsArray.map((blog) => {
 					return (
 						<div>
-							<BlogItem blog={blog} />
+							<BlogItem blog={blog} blogsArray={blogsArray} />
 						</div>
 					);
 				})}
