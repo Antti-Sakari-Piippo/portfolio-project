@@ -14,7 +14,7 @@
 		color: var(--main-font-color);
 		text-align: center;
 		span {
-			color: var(--orange-color);
+			color: var(--highlight-color);
 		}
 	}
 }
@@ -32,7 +32,7 @@
 		margin-right: 1rem;
 		.icon {
 			font-size: 2.8rem;
-			color: var(--gray-color);
+			color: var(--highlight-color);
 			transition: all .15s ease-in-out;
 		}
 		.facebook:hover {

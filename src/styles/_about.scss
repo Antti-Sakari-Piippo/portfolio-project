@@ -45,12 +45,12 @@
 
 .btn {
 	padding: 1rem 2rem;
-	background-color: var(--gray-color);
+	background-color: var(--item-background-color);
 	outline: none;
 	border: none;
 	font-family: inherit;
 	font-size: inherit;
-	color: white;
+	color: var(--main-font-color);
 	text-transform: uppercase;
 	cursor: pointer;
 	letter-spacing: 2px;

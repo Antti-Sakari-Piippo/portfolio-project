@@ -11,8 +11,8 @@
 
 .blogItem {
 	padding: 0.5rem;
-	background-color: var(--gray-color);
-	border: 1px solid var(--orange-color);
+	background-color: var(--item-background-color);
+	border: 1px solid var(--highlight-color);
 	overflow: hidden;
 	.blog-content {
 		overflow: hidden;
@@ -36,7 +36,7 @@
 	text-decoration: none;
 	transition: all .2s ease-in-out;
 	&:hover {
-		color: var(--orange-color);
+		color: var(--highlight-color);
 	}
 }
 
@@ -50,7 +50,7 @@
 		color: var(--main-font-color);
 		padding: .2rem;
 		&:hover {
-			color: var(--orange-color);
+			color: var(--highlight-color);
 		}
 	}
 }
@@ -83,7 +83,7 @@
 			&:hover {
 				transition: all .2s ease-in-out;
 				color: var(--main-font-color);
-				background-color: var(--orange-color);
+				background-color: var(--highlight-color);
 			}
 			i {
 				padding: 0.1rem 0.3rem 0.1rem 0.1rem;
