@@ -19,11 +19,11 @@ body::-webkit-scrollbar {
 	width: 8px;
 }
 body::-webkit-scrollbar-thumb {
-	background-color: var(--orange-color);
+	background-color: var(--highlight-color);
 	border-radius: 50px;
 }
 body::-webkit-scrollbar-track {
-	background-color: var(--gray-color);
+	background-color: var(--item-background-color);
 }
 
 body {
@@ -35,13 +35,13 @@ a {
 	text-decoration: none;
 }
 span {
-	color: var(--orange-color);
+	color: var(--highlight-color);
 }
 
 .main-content {
 	width: 84%;
 	margin-left: 16%;
-	background-color: var(--dark-gray-color);
+	background-color: var(--background-color);
 	min-height: 100vh;
 	display: grid;
 	position: relative;
@@ -56,5 +56,23 @@ span {
 		// 1000px
 		margin-left: 0;
 		width: 100%;
+	}
+}
+
+.light-dark-mode {
+	position: fixed;
+	right: 0;
+	top: 2%;
+	width: 5rem;
+	height: 2.5rem;
+	z-index: 15;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	svg {
+		display: flex;
+		align-items: center;
+		font-size: 1.7rem;
+		color: var(--white-color);
 	}
 }
