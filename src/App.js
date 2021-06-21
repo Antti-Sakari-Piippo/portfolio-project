@@ -1,7 +1,7 @@
 import "./App.scss";
 import Navbar from "./Components/Navbar";
 import HomePage from "./Pages/HomePage";
-import { Switch as PageSwitchin, Route } from "react-router-dom";
+import { Switch as PageSwitching, Route } from "react-router-dom";
 import AboutPage from "./Pages/AboutPage";
 import PortfoliosPage from "./Pages/PortfoliosPage";
 import BlogsPage from "./Pages/BlogsPage";
@@ -66,7 +66,7 @@ const App = () => {
 			</div>
 			<div className="main-content">
 				<div className="content">
-					<PageSwitchin>
+					<PageSwitching>
 						<Route path="/" exact>
 							<Particles
 								className="particles-canvas"
@@ -100,17 +100,17 @@ const App = () => {
 						<Route path="/blogs" exact>
 							<BlogsPage />
 						</Route>
-					</PageSwitchin>
-					<PageSwitchin>
+					</PageSwitching>
+					<PageSwitching>
 						<Route exact path="/blogs/:slug">
 							<Blog />
 						</Route>
-					</PageSwitchin>
-					<PageSwitchin>
+					</PageSwitching>
+					<PageSwitching>
 						<Route path="/contact" exact>
 							<ContactPage />
 						</Route>
-					</PageSwitchin>
+					</PageSwitching>
 				</div>
 			</div>
 		</div>
