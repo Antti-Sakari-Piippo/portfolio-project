@@ -16,7 +16,7 @@
 			padding: 1rem;
 			margin-left: 2rem;
 			border: 1px solid var(--item-background-color);
-			border: 1px solid var(--highlight-color);
+			border: 2px solid var(--highlight-color);
 		}
 		.right-items {
 			h6 {
@@ -47,7 +47,7 @@
 .map-sect {
 	width: 100%;
 	padding: 1rem;
-	border: 1px solid var(--highlight-color);
+	border: 2px solid var(--highlight-color);
 	background-color: var(--dark-gray-color);
 	iframe {
 		width: 100%;
