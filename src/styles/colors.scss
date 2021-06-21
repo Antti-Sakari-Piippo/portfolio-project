@@ -1,12 +1,20 @@
 :root {
-    --dark-gray-color: #141414;
-    --orange-color: #f06800;
-    --gray-color: #504c4c;
-    --main-font-color: white;
+	--highlight-color: #f06800;
 
-    //social media colors
-    --facebook-color: #4267B2;
-    --twitter-color: #1DA1F2;
-    --github-color: white;
-    --youtube-color: #E62117;
+	//social media colors
+	--facebook-color: #4267b2;
+	--twitter-color: #1da1f2;
+	--github-color: white;
+	--youtube-color: #e62117;
+}
+
+.light-theme {
+	--background-color: white;
+	--item-background-color: #beb7b7;
+	--main-font-color: black;
+}
+.dark-theme {
+	--background-color: #141414;
+	--item-background-color: #504c4c;
+	--main-font-color: white;
 }
