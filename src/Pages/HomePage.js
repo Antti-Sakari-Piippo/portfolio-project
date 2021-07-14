@@ -1,7 +1,7 @@
 import Typed from "react-typed";
-import { faFacebook, faTwitter, faGithub, faYoutube } from "@fortawesome/free-brands-svg-icons";
+import { faFacebook, faTwitter, faGithub, faYoutube, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Link } from "react-router-dom";
+import { Link, Switch } from "react-router-dom";
 
 function HomePage() {
 	return (
@@ -18,23 +18,15 @@ function HomePage() {
 					/>
 				</h1>
 				<p className="h-sub-text">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate facere, numquam vitae placeat
-					consequatur corrupti officia quibusdam. Blanditiis doloremque nemo ex facilis neque. A sint ipsam
-					earum nemo omnis et.
+					I'm currently looking for job opportunities in web-development and data-analysis.
 				</p>
 				<div className="icons">
-					<Link to="test" className="icon-holder">
+					<a target="_blank" href="https://github.com/Antti-Sakari-Piippo" className="icon-holder">
 						<FontAwesomeIcon icon={faGithub} className="icon github" />
-					</Link>
-					<Link to="test" className="icon-holder">
-						<FontAwesomeIcon icon={faYoutube} className="icon youtube" />
-					</Link>
-					<Link to="test" className="icon-holder">
-						<FontAwesomeIcon icon={faTwitter} className="icon twitter" />
-					</Link>
-					<Link to="test" className="icon-holder">
-						<FontAwesomeIcon icon={faFacebook} className="icon facebook" />
-					</Link>
+					</a>
+					<a target="_blank" href="https://linkedin.com/in/piippo-antti" className="icon-holder">
+						<FontAwesomeIcon icon={faLinkedinIn} className="icon linkedIn" />
+					</a>
 				</div>
 			</header>
 		</div>
