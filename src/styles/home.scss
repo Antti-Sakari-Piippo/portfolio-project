@@ -35,17 +35,11 @@
 			color: var(--highlight-color);
 			transition: all .15s ease-in-out;
 		}
-		.facebook:hover {
-			color: var(--facebook-color);
-		}
-		.twitter:hover {
-			color: var(--twitter-color);
-		}
 		.github:hover {
 			color: var(--github-color);
 		}
-		.youtube:hover {
-			color: var(--youtube-color);
+		.linkedIn:hover {
+			color: var(--linkedIn-color);
 		}
 	}
 }
