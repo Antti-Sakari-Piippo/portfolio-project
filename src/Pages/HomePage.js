@@ -1,7 +1,6 @@
 import Typed from "react-typed";
-import { faFacebook, faTwitter, faGithub, faYoutube, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Link, Switch } from "react-router-dom";
 
 function HomePage() {
 	return (
