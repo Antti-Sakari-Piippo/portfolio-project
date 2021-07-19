@@ -13,6 +13,7 @@ function ContactPage() {
 			<div className="ContactPage">
 				<div className="map-sect">
 					<iframe
+						title="google-map"
 						width="500"
 						height="500"
 						src="https://maps.google.com/maps?q=H%C3%B6yhty%C3%A4,%20Oulu&t=&z=13&ie=UTF8&iwloc=&output=embed"
