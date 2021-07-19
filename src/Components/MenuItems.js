@@ -8,7 +8,7 @@ function MenuItems({ menuItems }) {
 							<img src={item.image} alt="" />
 							<ul className="hover-items">
 								<li className="grid">
-									<a target="_blank" className="github" href={item.link1}>
+									<a rel="noopener noreferrer" className="github" href={item.link1}>
 										{item.icon1}
 									</a>
 								</li>

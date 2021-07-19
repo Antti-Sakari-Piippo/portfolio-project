@@ -26,7 +26,7 @@ function ContactPage() {
 					<ContactItem
 						icon={location}
 						title={
-							<a href="https://www.linkedin.com/in/piippo-antti" target="_blank">
+							<a href="https://www.linkedin.com/in/piippo-antti" rel="noopener noreferrer">
 								LinkedIn
 							</a>
 						}
