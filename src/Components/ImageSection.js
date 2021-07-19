@@ -1,19 +1,16 @@
-import blank from "../images/blank-profile-picture.webp";
+import profile from "../images/cv/cv_profil.png";
 
 function ImageSection() {
 	return (
 		<div className="ImageSection">
 			<div className="img">
-				<img src={blank} alt="" />
+				<img src={profile} alt="" />
 			</div>
 			<div className="about-info">
 				<h4>
 					I am<span> Antti Piippo</span>
 				</h4>
-				<p className="about-text">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum necessitatibus perferendis
-					numquam dolorem cumque facilis. Desir per po la ta doso vi slone ve?
-				</p>
+				<p className="about-text">I'm passionate about what I do and hard working.</p>
 				<div className="about-details">
 					<div className="left-section">
 						<p>Full Name</p>

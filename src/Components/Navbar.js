@@ -1,4 +1,4 @@
-import avatar from "../images/blank-profile-picture.webp";
+import profile from "../images/cv/cv_profil.png";
 import { NavLink } from "react-router-dom";
 
 function Navbar({ navToggle }) {
@@ -6,7 +6,7 @@ function Navbar({ navToggle }) {
 		<div className="Navbar">
 			<nav className="nav">
 				<div className="profile">
-					<img src={avatar} alt="" />
+					<img src={profile} alt="" />
 				</div>
 				<i className="fas fa-angle-left" onClick={navToggle} />
 				<ul className="nav-items">
