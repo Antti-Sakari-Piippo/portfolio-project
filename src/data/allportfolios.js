@@ -1,5 +1,4 @@
 import port1 from "../images/portImages/port1.jpg";
-import port2 from "../images/portImages/port2.jpg";
 import port3 from "../images/portImages/port3.jpg";
 import port4 from "../images/portImages/port4.jpg";
 import port5 from "../images/portImages/port5.jpg";
