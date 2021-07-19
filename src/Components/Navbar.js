@@ -6,7 +6,7 @@ function Navbar({ navToggle }) {
 		<div className="Navbar">
 			<nav className="nav">
 				<div className="profile">
-					<img src={profile} alt="" />
+					<img src={profile} alt="profile" />
 				</div>
 				<i className="fas fa-angle-left" onClick={navToggle} />
 				<ul className="nav-items">
