@@ -12,7 +12,7 @@ export const Blog = () => {
 			<p className="blog-title">{currentItem.title}</p>
 			<div className="blog-item">
 				<div className="wrapper-left">
-					<img src={currentItem.image} />
+					<img src={currentItem.image} alt="blog" />
 					<p className="blog-text">{currentItem.text}</p>
 					<br />
 					<p className="blog-date">

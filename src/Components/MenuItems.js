@@ -5,7 +5,7 @@ function MenuItems({ menuItems }) {
 				return (
 					<div className="portfolio" key={item.id}>
 						<div className="image-data">
-							<img src={item.image} alt="" />
+							<img src={item.image} alt="menu item" />
 							<ul className="hover-items">
 								<li className="grid">
 									<a rel="noopener noreferrer" className="github" href={item.link1}>
