@@ -7,9 +7,12 @@ function MenuItems({ menuItems }) {
 						<div className="image-data">
 							<img src={item.image} alt="menu item" />
 							<ul className="hover-items">
-								<li className="grid">
-									<a rel="noopener noreferrer" className="github" href={item.link1}>
+								<li className="flex">
+									<a rel="noopener noreferrer" target="_blank" className="github" href={item.link1}>
 										{item.icon1}
+									</a>
+									<a rel="noopener noreferrer" target="_blank" href={item.link2}>
+										{item.icon2}
 									</a>
 								</li>
 							</ul>
