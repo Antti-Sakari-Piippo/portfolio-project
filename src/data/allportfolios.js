@@ -4,7 +4,7 @@ import port4 from "../images/portImages/port4.jpg";
 import port5 from "../images/portImages/port5.jpg";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Icon, InlineIcon } from "@iconify/react";
+import { Icon } from "@iconify/react";
 import netlifyIcon from "@iconify-icons/logos/netlify";
 
 const portfolios = [
