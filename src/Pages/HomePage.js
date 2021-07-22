@@ -20,10 +20,20 @@ function HomePage() {
 					I'm currently looking for job opportunities in web-development and data-analysis.
 				</p>
 				<div className="icons">
-					<a rel="noopener noreferrer" href="https://github.com/Antti-Sakari-Piippo" className="icon-holder">
+					<a
+						rel="noopener noreferrer"
+						target="_blank"
+						href="https://github.com/Antti-Sakari-Piippo"
+						className="icon-holder"
+					>
 						<FontAwesomeIcon icon={faGithub} className="icon github" />
 					</a>
-					<a rel="noopener noreferrer" href="https://linkedin.com/in/piippo-antti" className="icon-holder">
+					<a
+						rel="noopener noreferrer"
+						target="_blank"
+						href="https://linkedin.com/in/piippo-antti"
+						className="icon-holder"
+					>
 						<FontAwesomeIcon icon={faLinkedinIn} className="icon linkedIn" />
 					</a>
 				</div>
