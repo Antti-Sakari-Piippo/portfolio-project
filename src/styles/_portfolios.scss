@@ -28,6 +28,7 @@
 		background-color: var(--item-background-color);
 		padding: 0.5rem;
 		border: 2px solid var(--highlight-color);
+		min-width: 300px;
 		.image-data {
 			position: relative;
 			&::before {
