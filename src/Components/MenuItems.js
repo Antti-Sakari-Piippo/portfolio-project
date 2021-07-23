@@ -18,7 +18,6 @@ function MenuItems({ menuItems }) {
 							</ul>
 						</div>
 						<h5>{item.title}</h5>
-						<p>Placeholder paragraph</p>
 					</div>
 				);
 			})}

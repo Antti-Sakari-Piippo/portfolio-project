@@ -69,7 +69,7 @@ const portfolios = [
 		title: "Bank"
 	},
 	{
-		id: 6,
+		id: 7,
 		category: "Power BI",
 		link1: "",
 		link2: "",
@@ -79,7 +79,7 @@ const portfolios = [
 		title: "Tieliikenneonnettomuudet (Coming Soon)"
 	},
 	{
-		id: 6,
+		id: 8,
 		category: "React Js",
 		link1: "https://github.com/Antti-Sakari-Piippo/budged-calculator",
 		link2: "https://elastic-wright-978438.netlify.app",
