@@ -36,7 +36,7 @@ const portfolios = [
 		icon1: <FontAwesomeIcon icon={faGithub} />,
 		icon2: <Icon icon={netlifyIcon} width="80px" height="80px" />,
 		image: port4,
-		title: "Cryptomarketcap"
+		title: "Crypto Market Cap"
 	},
 	{
 		id: 4,
@@ -76,7 +76,7 @@ const portfolios = [
 		icon1: <FontAwesomeIcon icon={faGithub} />,
 		icon2: <Icon icon={netlifyIcon} width="80px" height="80px" />,
 		image: port1,
-		title: "Tieliikenneonnettomuudet (Coming Soon)"
+		title: "Tieliikenneonnettomuudet (COMING SOON)"
 	},
 	{
 		id: 8,
