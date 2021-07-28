@@ -12,7 +12,7 @@ function MenuItems({ menuItems }) {
 										{item.icon1}
 									</a>
 									<a rel="noopener noreferrer" target="_blank" href={item.link2}>
-										{item.icon2}
+										{item.link2 !== "" && item.icon2}
 									</a>
 								</li>
 							</ul>
