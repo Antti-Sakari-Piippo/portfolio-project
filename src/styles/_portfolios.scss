@@ -63,7 +63,6 @@
 				top: 20%;
 				left: 50%;
 				transform: translate(-50%, -50%);
-				padding: 1rem 2rem;
 				visibility: hidden;
 				li {
 					a {
@@ -92,7 +91,7 @@
 		}
 
 		h5 {
-			font-size: 1.7rem;
+			font-size: 1.5rem;
 			font-weight: 400;
 			color: var(--main-font-color);
 			transition: all 0.3s ease-in-out;
