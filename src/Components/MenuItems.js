@@ -9,7 +9,7 @@ function MenuItems({ menuItems }) {
 							<ul className="hover-items">
 								<li className="flex">
 									<a rel="noopener noreferrer" target="_blank" className="github" href={item.link1}>
-										{item.icon1}
+										{item.link1 !== "" && item.icon1}
 									</a>
 									<a rel="noopener noreferrer" target="_blank" href={item.link2}>
 										{item.link2 !== "" && item.icon2}
