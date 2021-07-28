@@ -39,7 +39,7 @@ const portfolios = [
 		id: 4,
 		category: "React Js",
 		link1: "https://github.com/Antti-Sakari-Piippo/portfolio-project",
-		link2: "https://modest-noyce-6b7122.netlify.app",
+		link2: "", //https://modest-noyce-6b7122.netlify.app
 		icon1: <FontAwesomeIcon icon={faGithub} />,
 		icon2: <Icon icon={netlifyIcon} width="80px" height="80px" />,
 		image: port1,
