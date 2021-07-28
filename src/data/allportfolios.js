@@ -1,7 +1,4 @@
 import port1 from "../images/portImages/port1.jpg";
-import port3 from "../images/portImages/port3.jpg";
-import port4 from "../images/portImages/port4.jpg";
-import port5 from "../images/portImages/port5.jpg";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Icon } from "@iconify/react";
@@ -15,7 +12,7 @@ const portfolios = [
 		link2: "https://frosty-hopper-57a7b9.netlify.app",
 		icon1: <FontAwesomeIcon icon={faGithub} />,
 		icon2: <Icon icon={netlifyIcon} width="80px" height="80px" />,
-		image: port3,
+		image: port1,
 		title: "Weather App"
 	},
 	{
@@ -25,7 +22,7 @@ const portfolios = [
 		link2: "https://peaceful-turing-1c48b2.netlify.app",
 		icon1: <FontAwesomeIcon icon={faGithub} />,
 		icon2: <Icon icon={netlifyIcon} width="80px" height="80px" />,
-		image: port5,
+		image: port1,
 		title: "HTML and SCSS shapes"
 	},
 	{
@@ -35,7 +32,7 @@ const portfolios = [
 		link2: "https://practical-colden-9a6133.netlify.app",
 		icon1: <FontAwesomeIcon icon={faGithub} />,
 		icon2: <Icon icon={netlifyIcon} width="80px" height="80px" />,
-		image: port4,
+		image: port1,
 		title: "Crypto Market Cap"
 	},
 	{
@@ -45,7 +42,7 @@ const portfolios = [
 		link2: "https://modest-noyce-6b7122.netlify.app",
 		icon1: <FontAwesomeIcon icon={faGithub} />,
 		icon2: <Icon icon={netlifyIcon} width="80px" height="80px" />,
-		image: port4,
+		image: port1,
 		title: "Portfolio App"
 	},
 	{
@@ -87,6 +84,16 @@ const portfolios = [
 		icon2: <Icon icon={netlifyIcon} width="80px" height="80px" />,
 		image: port1,
 		title: "Budged Calculator"
+	},
+	{
+		id: 9,
+		category: "React Js",
+		link1: "https://github.com/Antti-Sakari-Piippo/redux-shopping-card",
+		link2: "", //https://nervous-noyce-5d57e2.netlify.app  //FIX
+		icon1: <FontAwesomeIcon icon={faGithub} />,
+		icon2: <Icon icon={netlifyIcon} width="80px" height="80px" />,
+		image: port1,
+		title: "Shopping cart [Redux]"
 	}
 ];
 
