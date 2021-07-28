@@ -20,7 +20,7 @@
 			width: 100%;
 			transition: all .15s ease-in-out;
 			&:hover {
-				transform: scale(1.1);
+				transform: scale(1.05);
 			}
 		}
 	}
@@ -91,6 +91,7 @@
 			}
 			&.blog-link {
 				margin-bottom: 2rem;
+				padding-bottom: 0.33rem;
 			}
 		}
 	}
@@ -101,7 +102,7 @@
 		p {
 			font-size: 1rem;
 		}
-		@media only screen and (max-width: 1300px) {
+		@media only screen and (max-width: 1760px) {
 			margin: 0 auto;
 		}
 	}
