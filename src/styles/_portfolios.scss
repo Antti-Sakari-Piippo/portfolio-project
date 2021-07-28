@@ -46,10 +46,6 @@
 				width: 100%;
 				height: 30vh;
 				object-fit: cover;
-				&:hover {
-					transform: scale(1.01);
-					transition: all 0.15s ease-in-out;
-				}
 			}
 			.svg-inline--fa.fa-w-16,
 			.fa-w-18 {
