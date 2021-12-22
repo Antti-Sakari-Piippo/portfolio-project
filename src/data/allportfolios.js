@@ -37,7 +37,7 @@ const portfolios = [
 	},
 	{
 		id: 4,
-		category: "CSS",
+		category: "vanilla",
 		link1: "https://github.com/Antti-Sakari-Piippo/CSS-SHAPES",
 		link2: "https://peaceful-turing-1c48b2.netlify.app",
 		icon1: <FontAwesomeIcon icon={faGithub} />,
@@ -67,7 +67,7 @@ const portfolios = [
 	},
 	{
 		id: 7,
-		category: "NodeJS",
+		category: "Node JS",
 		link1: "https://github.com/Antti-Sakari-Piippo/bank-nodejs/blob/master/bank.js",
 		link2: "",
 		icon1: <FontAwesomeIcon icon={faGithub} />,
@@ -94,6 +94,16 @@ const portfolios = [
 		icon2: <Icon icon={netlifyIcon} width="80px" height="80px" />,
 		image: port1,
 		title: "Tieliikenneonnettomuudet (COMING SOON)"
+	},
+	{
+		id: 10,
+		category: "vanilla",
+		link1: "https://github.com/Antti-Sakari-Piippo/customisable-website/tree/master",
+		link2: "https://gallant-nobel-66606d.netlify.app",
+		icon1: <FontAwesomeIcon icon={faGithub} />,
+		icon2: <Icon icon={netlifyIcon} width="80px" height="80px" />,
+		image: port1,
+		title: "Customizable website"
 	}
 ];
 
