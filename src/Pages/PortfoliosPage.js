@@ -4,10 +4,9 @@ import Tittle from "../Components/Tittle";
 import portfolios from "../data/allportfolios";
 import { useState } from "react";
 
-const allCategories = [ "All", ...portfolios.map((item) => item.category) ];
+const allCategories = [ "All", ...new Set(portfolios.map((item) => item.category)) ];
 
 function PortfoliosPage() {
-	const [ categories, setCategories ] = useState(allCategories);
 	const [ menuItems, setMenuItems ] = useState(portfolios);
 
 	const filter = (category) => {
@@ -26,7 +25,7 @@ function PortfoliosPage() {
 				<Tittle title={"Portfolios"} span={"portfolios"} />
 			</div>
 			<div>
-				<Categories filter={filter} categories={categories} />
+				<Categories filter={filter} categories={allCategories} />
 				<MenuItems menuItems={menuItems} />
 			</div>
 		</div>
