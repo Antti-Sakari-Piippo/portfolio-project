@@ -13,10 +13,10 @@ function PortfoliosPage() {
 		if (category === "All") {
 			return setMenuItems(portfolios);
 		}
-		const filteredData = portfolios.filter((item) => {
+		const filteredPortfolios = portfolios.filter((item) => {
 			return item.category === category;
 		});
-		setMenuItems(filteredData);
+		setMenuItems(filteredPortfolios);
 	};
 
 	return (
