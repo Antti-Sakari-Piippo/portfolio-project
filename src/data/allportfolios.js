@@ -1,8 +1,18 @@
 import port1 from "../images/portImages/port1.jpg";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faFigma, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Icon } from "@iconify/react";
 import netlifyIcon from "@iconify-icons/logos/netlify";
+import figmaIcon from "@iconify-icons/logos/figma";
+
+// projectImages
+import theRaven from "../images/projectImages/theRaven.PNG";
+import basic from "../images/projectImages/basic.PNG";
+import dune from "../images/projectImages/dune.PNG";
+import HPLovecraft from "../images/projectImages/HPLovecraft.PNG";
+import nightly from "../images/projectImages/nightly.PNG";
+import ocianica from "../images/projectImages/ocianica.PNG";
+import woods from "../images/projectImages/woods.PNG";
 
 const portfolios = [
 	{
@@ -104,6 +114,69 @@ const portfolios = [
 		icon2: <Icon icon={netlifyIcon} width="80px" height="80px" />,
 		image: port1,
 		title: "Customizable website"
+	},
+	{
+		id: 11,
+		category: "figma",
+		link1:
+			"https://www.figma.com/proto/uNcdIc6EmkzxCmHGajkiE5/Poe?node-id=2%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A2",
+		icon1: <Icon icon={figmaIcon} width="80px" height="80px" />,
+		image: theRaven,
+		title: "The Raven by Edgar Allan Poe"
+	},
+
+	{
+		id: 12,
+		category: "figma",
+		link1:
+			"https://www.figma.com/proto/JShSH32GowcQ3EoMfwxMXF/H.P.-Lovecraft?node-id=62%3A2&scaling=min-zoom&page-id=0%3A1",
+		icon1: <Icon icon={figmaIcon} width="80px" height="80px" />,
+		image: HPLovecraft,
+		title: "H.P Lovecraft"
+	},
+	{
+		id: 13,
+		category: "figma",
+		link1: "https://www.figma.com/proto/CNFs0ID43r9X1sWikq8wgN/Dune?node-id=3%3A3&scaling=min-zoom&page-id=0%3A1",
+		icon1: <Icon icon={figmaIcon} width="80px" height="80px" />,
+		image: dune,
+		title: "Dune"
+	},
+	{
+		id: 14,
+		category: "figma",
+		link1:
+			"https://www.figma.com/proto/qVD3PhXnSjPJbBgowzruMv/woody?node-id=22%3A2&scaling=scale-down&page-id=0%3A1",
+		icon1: <Icon icon={figmaIcon} width="80px" height="80px" />,
+		image: woods,
+		title: "Woods"
+	},
+	{
+		id: 15,
+		category: "figma",
+		link1:
+			"https://www.figma.com/proto/VJBAgTuePEnPHY07o4U1TH/Nighty?node-id=25%3A242&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=25%3A192",
+		icon1: <Icon icon={figmaIcon} width="80px" height="80px" />,
+		image: nightly,
+		title: "Nighty"
+	},
+	{
+		id: 16,
+		category: "figma",
+		link1:
+			"https://www.figma.com/proto/JKFtd6AaNfzs7HVkuuDd20/Water?node-id=2%3A5&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=2%3A5",
+		icon1: <Icon icon={figmaIcon} width="80px" height="80px" />,
+		image: ocianica,
+		title: "Ocianica"
+	},
+	{
+		id: 17,
+		category: "figma",
+		link1:
+			"https://www.figma.com/proto/bxqP5WKrxEUvvfoUMZD6lL/MyFIrstDesign?node-id=0%3A3&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=0%3A3",
+		icon1: <Icon icon={figmaIcon} width="80px" height="80px" />,
+		image: basic,
+		title: "Basic"
 	}
 ];
 
