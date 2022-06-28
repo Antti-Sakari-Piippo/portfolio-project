@@ -13,6 +13,8 @@ import HPLovecraft from "../images/projectImages/HPLovecraft.PNG";
 import nightly from "../images/projectImages/nightly.PNG";
 import ocianica from "../images/projectImages/ocianica.PNG";
 import woods from "../images/projectImages/woods.PNG";
+import JackLondon from "../images/projectImages/JackLondon.PNG";
+import tubeAudio from "../images/projectImages/tubeAudio.PNG";
 
 const portfolios = [
 	{
@@ -124,7 +126,6 @@ const portfolios = [
 		image: theRaven,
 		title: "The Raven by Edgar Allan Poe"
 	},
-
 	{
 		id: 12,
 		category: "figma",
@@ -177,6 +178,24 @@ const portfolios = [
 		icon1: <Icon icon={figmaIcon} width="80px" height="80px" />,
 		image: basic,
 		title: "Basic"
+	},
+	{
+		id: 18,
+		category: "figma",
+		link1:
+			"https://www.figma.com/proto/D2IcgKmwkwIrHvHgKnUtLY/Jack-London?scaling=min-zoom&page-id=0%3A1&node-id=30%3A292&starting-point-node-id=30%3A292",
+		icon1: <Icon icon={figmaIcon} width="80px" height="80px" />,
+		image: JackLondon,
+		title: "Jack London"
+	},
+	{
+		id: 19,
+		category: "figma",
+		link1:
+			"https://www.figma.com/proto/RF9Yz83oheuctl8eLZSFaj/Tubes-and-amps?page-id=0%3A1&node-id=2%3A2&viewport=562%2C402%2C0.55&scaling=min-zoom",
+		icon1: <Icon icon={figmaIcon} width="80px" height="80px" />,
+		image: tubeAudio,
+		title: "Tube Audio"
 	}
 ];
 
