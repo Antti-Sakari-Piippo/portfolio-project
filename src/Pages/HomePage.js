@@ -10,7 +10,7 @@ function HomePage() {
 					Hi, I am&nbsp;
 					<Typed
 						className="typed-text"
-						strings={[ "Antti Piippo", "a web developer", "a data-analysts" ]}
+						strings={[ "Antti Piippo", "a web developer", "a web designer", "a data-analysts" ]}
 						typeSpeed={40}
 						backSpeed={60}
 						loop
