@@ -56,8 +56,7 @@ span {
 		margin-left: clamp(5rem, 15%, 10rem);
 		margin-right: clamp(5rem, 15%, 10rem);
 	}
-	@media screen and (max-width: 62.5em) {
-		// 1000px
+	@media screen and (max-width: 62.5em) { // 1000px
 		margin-left: 0;
 		width: 100%;
 	}
