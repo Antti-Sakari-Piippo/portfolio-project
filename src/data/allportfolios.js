@@ -16,6 +16,7 @@ import woods from "../images/projectImages/woods.PNG";
 import JackLondon from "../images/projectImages/JackLondon.PNG";
 import tubeAudio from "../images/projectImages/tubeAudio.PNG";
 import Tolkien from "../images/projectImages/Tolkien.PNG";
+import Mountain from "../images/projectImages/Mountain.PNG";
 
 const portfolios = [
 	{
@@ -205,6 +206,15 @@ const portfolios = [
 		icon1: <Icon icon={figmaIcon} width="80px" height="80px" />,
 		image: Tolkien,
 		title: "Tolkien"
+	},
+	{
+		id: 21,
+		category: "figma",
+		link1:
+			"https://www.figma.com/proto/gKRQUzOYWIoMQx3j9V8u0A/Mountain-Expedition?page-id=0%3A1&node-id=1%3A2&viewport=450%2C91%2C0.1&scaling=min-zoom",
+		icon1: <Icon icon={figmaIcon} width="80px" height="80px" />,
+		image: Mountain,
+		title: "Mountain"
 	}
 ];
 
