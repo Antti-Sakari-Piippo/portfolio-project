@@ -17,6 +17,7 @@ import JackLondon from "../images/projectImages/JackLondon.PNG";
 import tubeAudio from "../images/projectImages/tubeAudio.PNG";
 import Tolkien from "../images/projectImages/Tolkien.PNG";
 import Mountain from "../images/projectImages/Mountain.PNG";
+import Aniva from "../images/projectImages/Aniva.PNG";
 
 const portfolios = [
 	{
@@ -215,6 +216,15 @@ const portfolios = [
 		icon1: <Icon icon={figmaIcon} width="80px" height="80px" />,
 		image: Mountain,
 		title: "Mountain"
+	},
+	{
+		id: 22,
+		category: "figma",
+		link1:
+			"https://www.figma.com/proto/ONnqKQkx4zmETBfWhzy2io/Aniva2?page-id=0%3A1&node-id=1%3A10&viewport=799%2C393%2C0.07&scaling=min-zoom",
+		icon1: <Icon icon={figmaIcon} width="80px" height="80px" />,
+		image: Aniva,
+		title: "Aniva"
 	}
 ];
 
