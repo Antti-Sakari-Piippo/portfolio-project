@@ -21,7 +21,7 @@ function ImageSection() {
 					<div className="right-section">
 						<p>Antti Piippo</p>
 						<p>Finnish</p>
-						<p>28</p>
+						<p>29</p>
 						<p>Finnish, English</p>
 					</div>
 				</div>
