@@ -215,7 +215,7 @@ const portfolios = [
 			"https://www.figma.com/proto/gKRQUzOYWIoMQx3j9V8u0A/Mountain-Expedition?page-id=0%3A1&node-id=1%3A2&viewport=450%2C91%2C0.1&scaling=min-zoom",
 		icon1: <Icon icon={figmaIcon} width="80px" height="80px" />,
 		image: Mountain,
-		title: "Mountain"
+		title: "Travel website"
 	},
 	{
 		id: 22,
