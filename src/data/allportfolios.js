@@ -18,6 +18,7 @@ import tubeAudio from "../images/projectImages/tubeAudio.PNG";
 import Tolkien from "../images/projectImages/Tolkien.PNG";
 import Mountain from "../images/projectImages/Mountain.PNG";
 import Aniva from "../images/projectImages/Aniva.PNG";
+import choco from "../images/projectImages/choco.PNG";
 
 const portfolios = [
 	{
@@ -225,6 +226,15 @@ const portfolios = [
 		icon1: <Icon icon={figmaIcon} width="80px" height="80px" />,
 		image: Aniva,
 		title: "Aniva"
+	},
+	{
+		id: 23,
+		category: "figma",
+		link1:
+			"https://www.figma.com/proto/kuYhStcYssaahQEDYRJVAm/chocolate?page-id=0%3A1&node-id=1%3A2&viewport=883%2C536%2C0.35&scaling=min-zoom&starting-point-node-id=1%3A2",
+		icon1: <Icon icon={figmaIcon} width="80px" height="80px" />,
+		image: choco,
+		title: "Chocolate store"
 	}
 ];
 
