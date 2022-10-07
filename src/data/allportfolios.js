@@ -222,7 +222,7 @@ const portfolios = [
 		id: 22,
 		category: "figma",
 		link1:
-			"https://www.figma.com/proto/ONnqKQkx4zmETBfWhzy2io/Aniva2?page-id=0%3A1&node-id=1%3A10&viewport=799%2C393%2C0.07&scaling=min-zoom",
+			"https://www.figma.com/proto/ONnqKQkx4zmETBfWhzy2io/Aniva2?page-id=0%3A1&node-id=80%3A190&viewport=1645%2C2746%2C0.57&scaling=min-zoom",
 		icon1: <Icon icon={figmaIcon} width="80px" height="80px" />,
 		image: Aniva,
 		title: "Aniva"
