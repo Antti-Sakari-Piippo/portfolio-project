@@ -20,6 +20,7 @@ import Mountain from "../images/projectImages/Mountain.PNG";
 import Aniva from "../images/projectImages/Aniva.PNG";
 import choco from "../images/projectImages/choco.PNG";
 import poeJS from "../images/projectImages/poeJS.png";
+import woodsLarge from "../images/projectImages/woodsLarge.png";
 
 const portfolios = [
 	{
@@ -274,7 +275,7 @@ const portfolios = [
 		link2: "https://playful-basbousa-842897.netlify.app/",
 		icon1: <FontAwesomeIcon icon={faGithub} />,
 		icon2: <Icon icon={netlifyIcon} width="80px" height="80px" />,
-		image: Tolkien,
+		image: woodsLarge,
 		title: "Woods site"
 	},
 ];
