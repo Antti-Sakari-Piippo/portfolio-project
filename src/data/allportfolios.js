@@ -267,6 +267,16 @@ const portfolios = [
 		image: Tolkien,
 		title: "J.R.R Tolkien site"
 	},
+	{
+		id: 27,
+		category: "vanilla",
+		link1: "https://github.com/Antti-Sakari-Piippo/Woods",
+		link2: "https://playful-basbousa-842897.netlify.app/",
+		icon1: <FontAwesomeIcon icon={faGithub} />,
+		icon2: <Icon icon={netlifyIcon} width="80px" height="80px" />,
+		image: Tolkien,
+		title: "Woods site"
+	},
 ];
 
 export default portfolios;
