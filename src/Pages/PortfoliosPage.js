@@ -11,12 +11,12 @@ function PortfoliosPage() {
 
 	const filter = (category) => {
 		if (category === "All") {
-			return setMenuItems(portfolios);
+			return setMenuItems(portfolios.reverse());
 		}
 		const filteredPortfolios = portfolios.filter((item) => {
 			return item.category === category;
 		});
-		setMenuItems(filteredPortfolios);
+		setMenuItems(filteredPortfolios.reverse());
 	};
 
 	return (
