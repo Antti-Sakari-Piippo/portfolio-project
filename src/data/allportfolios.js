@@ -257,6 +257,16 @@ const portfolios = [
 		image: Mountain,
 		title: "Mountain expedition travel site"
 	},
+	{
+		id: 25,
+		category: "vanilla",
+		link1: "https://github.com/Antti-Sakari-Piippo/Tolkien",
+		link2: "https://stellular-medovik-34be58.netlify.app/",
+		icon1: <FontAwesomeIcon icon={faGithub} />,
+		icon2: <Icon icon={netlifyIcon} width="80px" height="80px" />,
+		image: Tolkien,
+		title: "J.R.R Tolkien site"
+	},
 ];
 
 export default portfolios;
