@@ -247,6 +247,16 @@ const portfolios = [
 		image: poeJS,
 		title: "The Raven by Edgar Allan Poe"
 	},
+	{
+		id: 25,
+		category: "vanilla",
+		link1: "https://github.com/Antti-Sakari-Piippo/MountainExpeditionJS",
+		link2: "https://shiny-puffpuff-b76fea.netlify.app/",
+		icon1: <FontAwesomeIcon icon={faGithub} />,
+		icon2: <Icon icon={netlifyIcon} width="80px" height="80px" />,
+		image: Mountain,
+		title: "Mountain expedition travel site"
+	},
 ];
 
 export default portfolios;
