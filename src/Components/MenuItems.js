@@ -1,7 +1,8 @@
 function MenuItems({ menuItems }) {
+	const reversedPortfolioItems = [...menuItems].reverse()
 	return (
 		<div className="portfolios">
-			{menuItems.map((item) => {
+			{reversedPortfolioItems.map((item) => {
 				return (
 					<div className="portfolio" key={item.id}>
 						<div className="image-data">

@@ -7,16 +7,16 @@ import { useState } from "react";
 const allCategories = [ "All", ...new Set(portfolios.map((item) => item.category)) ];
 
 function PortfoliosPage() {
-	const [ menuItems, setMenuItems ] = useState(portfolios);
+	const [ portfolioItems, setMenuItems ] = useState(portfolios);
 
 	const filter = (category) => {
 		if (category === "All") {
-			return setMenuItems(portfolios.reverse());
+			return setMenuItems(portfolios);
 		}
 		const filteredPortfolios = portfolios.filter((item) => {
 			return item.category === category;
 		});
-		setMenuItems(filteredPortfolios.reverse());
+		setMenuItems(filteredPortfolios);
 	};
 
 	return (
@@ -26,7 +26,7 @@ function PortfoliosPage() {
 			</div>
 			<div>
 				<Categories filter={filter} categories={allCategories} />
-				<MenuItems menuItems={menuItems} />
+				<MenuItems menuItems={portfolioItems} />
 			</div>
 		</div>
 	);
