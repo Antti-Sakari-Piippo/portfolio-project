@@ -55,7 +55,7 @@ const portfolios = [
 	},
 	{
 		id: 4,
-		category: "vanilla",
+		category: "vanilla JS",
 		link1: "https://github.com/Antti-Sakari-Piippo/CSS-SHAPES",
 		link2: "https://peaceful-turing-1c48b2.netlify.app",
 		icon1: <FontAwesomeIcon icon={faGithub} />,
@@ -115,7 +115,7 @@ const portfolios = [
 	},
 	{
 		id: 10,
-		category: "vanilla",
+		category: "vanilla JS",
 		link1: "https://github.com/Antti-Sakari-Piippo/customisable-website/tree/master",
 		link2: "https://gallant-nobel-66606d.netlify.app",
 		icon1: <FontAwesomeIcon icon={faGithub} />,
@@ -130,7 +130,7 @@ const portfolios = [
 			"https://www.figma.com/proto/uNcdIc6EmkzxCmHGajkiE5/Poe?node-id=2%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A2",
 		icon1: <Icon icon={figmaIcon} width="80px" height="80px" />,
 		image: theRaven,
-		title: "The Raven by Edgar Allan Poe"
+		title: "The Raven by Edgar Allan Poe [Figma]"
 	},
 	{
 		id: 12,
@@ -139,7 +139,7 @@ const portfolios = [
 			"https://www.figma.com/proto/JShSH32GowcQ3EoMfwxMXF/H.P.-Lovecraft?node-id=62%3A2&scaling=min-zoom&page-id=0%3A1",
 		icon1: <Icon icon={figmaIcon} width="80px" height="80px" />,
 		image: HPLovecraft,
-		title: "H.P Lovecraft"
+		title: "H.P Lovecraft [Figma]"
 	},
 	{
 		id: 13,
@@ -147,7 +147,7 @@ const portfolios = [
 		link1: "https://www.figma.com/proto/CNFs0ID43r9X1sWikq8wgN/Dune?node-id=3%3A3&scaling=min-zoom&page-id=0%3A1",
 		icon1: <Icon icon={figmaIcon} width="80px" height="80px" />,
 		image: dune,
-		title: "Dune"
+		title: "Dune [Figma]"
 	},
 	{
 		id: 14,
@@ -156,7 +156,7 @@ const portfolios = [
 			"https://www.figma.com/proto/qVD3PhXnSjPJbBgowzruMv/woody?node-id=22%3A2&scaling=scale-down&page-id=0%3A1",
 		icon1: <Icon icon={figmaIcon} width="80px" height="80px" />,
 		image: woods,
-		title: "Woods"
+		title: "Woods [Figma]"
 	},
 	{
 		id: 15,
@@ -165,7 +165,7 @@ const portfolios = [
 			"https://www.figma.com/proto/VJBAgTuePEnPHY07o4U1TH/Nighty?node-id=25%3A242&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=25%3A192",
 		icon1: <Icon icon={figmaIcon} width="80px" height="80px" />,
 		image: nightly,
-		title: "Nighty"
+		title: "Nighty [Figma]"
 	},
 	{
 		id: 16,
@@ -174,7 +174,7 @@ const portfolios = [
 			"https://www.figma.com/proto/JKFtd6AaNfzs7HVkuuDd20/Water?node-id=2%3A5&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=2%3A5",
 		icon1: <Icon icon={figmaIcon} width="80px" height="80px" />,
 		image: ocianica,
-		title: "Ocianica"
+		title: "Ocianica [Figma]"
 	},
 	{
 		id: 17,
@@ -183,7 +183,7 @@ const portfolios = [
 			"https://www.figma.com/proto/bxqP5WKrxEUvvfoUMZD6lL/MyFIrstDesign?node-id=0%3A3&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=0%3A3",
 		icon1: <Icon icon={figmaIcon} width="80px" height="80px" />,
 		image: basic,
-		title: "Basic"
+		title: "Basic web design [Figma]"
 	},
 	{
 		id: 18,
@@ -192,7 +192,7 @@ const portfolios = [
 			"https://www.figma.com/proto/D2IcgKmwkwIrHvHgKnUtLY/Jack-London?scaling=min-zoom&page-id=0%3A1&node-id=30%3A292&starting-point-node-id=30%3A292",
 		icon1: <Icon icon={figmaIcon} width="80px" height="80px" />,
 		image: JackLondon,
-		title: "Jack London"
+		title: "Jack London [Figma]"
 	},
 	{
 		id: 19,
@@ -201,7 +201,7 @@ const portfolios = [
 			"https://www.figma.com/proto/RF9Yz83oheuctl8eLZSFaj/Tubes-and-amps?page-id=0%3A1&node-id=2%3A2&viewport=562%2C402%2C0.55&scaling=min-zoom",
 		icon1: <Icon icon={figmaIcon} width="80px" height="80px" />,
 		image: tubeAudio,
-		title: "Tube Audio"
+		title: "Tube Audio [Figma]"
 	},
 	{
 		id: 20,
@@ -209,7 +209,7 @@ const portfolios = [
 		link1: "https://www.figma.com/proto/6wPX856ruFiMvkz6kGoqaO/Tolkien?page-id=0%3A1&node-id=26%3A3",
 		icon1: <Icon icon={figmaIcon} width="80px" height="80px" />,
 		image: Tolkien,
-		title: "Tolkien"
+		title: "Tolkien [Figma]"
 	},
 	{
 		id: 21,
@@ -218,7 +218,7 @@ const portfolios = [
 			"https://www.figma.com/proto/gKRQUzOYWIoMQx3j9V8u0A/Mountain-Expedition?page-id=0%3A1&node-id=1%3A2&viewport=450%2C91%2C0.1&scaling=min-zoom",
 		icon1: <Icon icon={figmaIcon} width="80px" height="80px" />,
 		image: Mountain,
-		title: "Travel website"
+		title: "Travel website [Figma]"
 	},
 	{
 		id: 22,
@@ -227,7 +227,7 @@ const portfolios = [
 			"https://www.figma.com/proto/ONnqKQkx4zmETBfWhzy2io/Aniva2?page-id=0%3A1&node-id=80%3A190&viewport=1645%2C2746%2C0.57&scaling=min-zoom",
 		icon1: <Icon icon={figmaIcon} width="80px" height="80px" />,
 		image: Aniva,
-		title: "Aniva"
+		title: "Aniva [Figma]"
 	},
 	{
 		id: 23,
@@ -236,11 +236,11 @@ const portfolios = [
 			"https://www.figma.com/proto/kuYhStcYssaahQEDYRJVAm/chocolate?page-id=0%3A1&node-id=1%3A2&viewport=883%2C536%2C0.35&scaling=min-zoom&starting-point-node-id=1%3A2",
 		icon1: <Icon icon={figmaIcon} width="80px" height="80px" />,
 		image: choco,
-		title: "Chocolate store"
+		title: "Chocolate store [Figma]"
 	},
 	{
 		id: 24,
-		category: "vanilla",
+		category: "vanilla JS",
 		link1: "https://github.com/Antti-Sakari-Piippo/poe",
 		link2: "https://sparkling-gnome-561e0f.netlify.app/",
 		icon1: <FontAwesomeIcon icon={faGithub} />,
@@ -250,7 +250,7 @@ const portfolios = [
 	},
 	{
 		id: 25,
-		category: "vanilla",
+		category: "vanilla JS",
 		link1: "https://github.com/Antti-Sakari-Piippo/MountainExpeditionJS",
 		link2: "https://shiny-puffpuff-b76fea.netlify.app/",
 		icon1: <FontAwesomeIcon icon={faGithub} />,
@@ -260,7 +260,7 @@ const portfolios = [
 	},
 	{
 		id: 26,
-		category: "vanilla",
+		category: "vanilla JS",
 		link1: "https://github.com/Antti-Sakari-Piippo/Tolkien",
 		link2: "https://stellular-medovik-34be58.netlify.app/",
 		icon1: <FontAwesomeIcon icon={faGithub} />,
@@ -270,13 +270,23 @@ const portfolios = [
 	},
 	{
 		id: 27,
-		category: "vanilla",
+		category: "vanilla JS",
 		link1: "https://github.com/Antti-Sakari-Piippo/Woods",
 		link2: "https://playful-basbousa-842897.netlify.app/",
 		icon1: <FontAwesomeIcon icon={faGithub} />,
 		icon2: <Icon icon={netlifyIcon} width="80px" height="80px" />,
 		image: woodsLarge,
 		title: "Woods site"
+	},
+	{
+		id: 28,
+		category: "vanilla JS",
+		link1: "https://github.com/Antti-Sakari-Piippo/AnivaJS",
+		link2: "https://kaleidoscopic-melomakarona-5d0426.netlify.app/",
+		icon1: <FontAwesomeIcon icon={faGithub} />,
+		icon2: <Icon icon={netlifyIcon} width="80px" height="80px" />,
+		image: Aniva,
+		title: "Aniva lighthouse site"
 	},
 ];
 
