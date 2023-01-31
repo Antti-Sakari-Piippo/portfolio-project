@@ -288,6 +288,14 @@ const portfolios = [
 		image: Aniva,
 		title: "Aniva lighthouse site"
 	},
+	{
+		id: 29,
+		category: "NextJs",
+		link1: "https://github.com/Antti-Sakari-Piippo/woods-nextjs",
+		icon1: <FontAwesomeIcon icon={faGithub} />,
+		image: woodsLarge,
+		title: "NextJs Woods site"
+	},
 ];
 
 export default portfolios;
