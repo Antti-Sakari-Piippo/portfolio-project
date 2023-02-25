@@ -296,6 +296,16 @@ const portfolios = [
 		image: woodsLarge,
 		title: "NextJs Woods site"
 	},
+	{
+		id: 30,
+		category: "vanilla JS",
+		link1: "https://github.com/Antti-Sakari-Piippo/H.P.Lovecraft",
+		link2: "https://marvelous-melomakarona-34f1fa.netlify.app",
+		icon1: <FontAwesomeIcon icon={faGithub} />,
+		icon2: <Icon icon={netlifyIcon} width="80px" height="80px" />,
+		image: HPLovecraft,
+		title: "H.P Lovecraft fan site"
+	},
 ];
 
 export default portfolios;
