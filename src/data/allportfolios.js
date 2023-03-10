@@ -251,6 +251,16 @@ const portfolios = [
 	{
 		id: 25,
 		category: "vanilla JS",
+		link1: "https://github.com/Antti-Sakari-Piippo/ocianica",
+		link2: "https://dashing-palmier-0f012a.netlify.app/",
+		icon1: <FontAwesomeIcon icon={faGithub} />,
+		icon2: <Icon icon={netlifyIcon} width="80px" height="80px" />,
+		image: ocianica,
+		title: "Ocianica travel site"
+	},
+	{
+		id: 26,
+		category: "vanilla JS",
 		link1: "https://github.com/Antti-Sakari-Piippo/MountainExpeditionJS",
 		link2: "https://shiny-puffpuff-b76fea.netlify.app/",
 		icon1: <FontAwesomeIcon icon={faGithub} />,
@@ -259,7 +269,7 @@ const portfolios = [
 		title: "Mountain expedition travel site"
 	},
 	{
-		id: 26,
+		id: 27,
 		category: "vanilla JS",
 		link1: "https://github.com/Antti-Sakari-Piippo/Tolkien",
 		link2: "https://stellular-medovik-34be58.netlify.app/",
@@ -269,7 +279,7 @@ const portfolios = [
 		title: "J.R.R Tolkien site"
 	},
 	{
-		id: 27,
+		id: 28,
 		category: "vanilla JS",
 		link1: "https://github.com/Antti-Sakari-Piippo/Woods",
 		link2: "https://playful-basbousa-842897.netlify.app/",
@@ -279,7 +289,7 @@ const portfolios = [
 		title: "Woods site"
 	},
 	{
-		id: 28,
+		id: 29,
 		category: "vanilla JS",
 		link1: "https://github.com/Antti-Sakari-Piippo/AnivaJS",
 		link2: "https://kaleidoscopic-melomakarona-5d0426.netlify.app/",
@@ -289,7 +299,7 @@ const portfolios = [
 		title: "Aniva lighthouse site"
 	},
 	{
-		id: 29,
+		id: 30,
 		category: "NextJs",
 		link1: "https://github.com/Antti-Sakari-Piippo/woods-nextjs",
 		icon1: <FontAwesomeIcon icon={faGithub} />,
@@ -297,7 +307,7 @@ const portfolios = [
 		title: "NextJs Woods site"
 	},
 	{
-		id: 30,
+		id: 31,
 		category: "vanilla JS",
 		link1: "https://github.com/Antti-Sakari-Piippo/H.P.Lovecraft",
 		link2: "https://marvelous-melomakarona-34f1fa.netlify.app",
