@@ -309,6 +309,16 @@ const portfolios = [
 	{
 		id: 31,
 		category: "vanilla JS",
+		link1: "https://github.com/Antti-Sakari-Piippo/chocolateShop",
+		link2: "https://radiant-mermaid-6bc52e.netlify.app/",
+		icon1: <FontAwesomeIcon icon={faGithub} />,
+		icon2: <Icon icon={netlifyIcon} width="80px" height="80px" />,
+		image: choco,
+		title: "Chocolate store site"
+	},
+	{
+		id: 32,
+		category: "vanilla JS",
 		link1: "https://github.com/Antti-Sakari-Piippo/H.P.Lovecraft",
 		link2: "https://marvelous-melomakarona-34f1fa.netlify.app",
 		icon1: <FontAwesomeIcon icon={faGithub} />,
