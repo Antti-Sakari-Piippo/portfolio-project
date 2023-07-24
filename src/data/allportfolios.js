@@ -21,6 +21,7 @@ import Aniva from "../images/projectImages/Aniva.PNG";
 import choco from "../images/projectImages/choco.PNG";
 import poeJS from "../images/projectImages/poeJS.png";
 import woodsLarge from "../images/projectImages/woodsLarge.png";
+import pixels from "../images/projectImages/pixels.png";
 
 const portfolios = [
 	{
@@ -325,6 +326,15 @@ const portfolios = [
 		icon2: <Icon icon={netlifyIcon} width="80px" height="80px" />,
 		image: HPLovecraft,
 		title: "H.P Lovecraft fan site"
+	},
+	{
+		id: 33,
+		category: "figma",
+		link1:
+			"https://www.figma.com/proto/zD7Ysy3znQML2bZXxx8jex/AI?page-id=0%3A1&node-id=1-3&scaling=min-zoom&mode=design&t=1X7YZQFNdCM8Qn72-1",
+		icon1: <Icon icon={figmaIcon} width="80px" height="80px" />,
+		image: pixels,
+		title: "Pixels AI [Figma]"
 	},
 ];
 
