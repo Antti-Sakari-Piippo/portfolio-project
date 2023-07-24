@@ -22,6 +22,7 @@ import choco from "../images/projectImages/choco.PNG";
 import poeJS from "../images/projectImages/poeJS.png";
 import woodsLarge from "../images/projectImages/woodsLarge.png";
 import pixels from "../images/projectImages/pixels.png";
+import steam from "../images/projectImages/steam.png";
 
 const portfolios = [
 	{
@@ -329,6 +330,16 @@ const portfolios = [
 	},
 	{
 		id: 33,
+		category: "vanilla JS",
+		link1: "https://github.com/Antti-Sakari-Piippo/Steam-redesign",
+		link2: "https://deft-queijadas-fd7230.netlify.app/",
+		icon1: <FontAwesomeIcon icon={faGithub} />,
+		icon2: <Icon icon={netlifyIcon} width="80px" height="80px" />,
+		image: steam,
+		title: "Steam mobile redesign"
+	},
+	{
+		id: 34,
 		category: "figma",
 		link1:
 			"https://www.figma.com/proto/zD7Ysy3znQML2bZXxx8jex/AI?page-id=0%3A1&node-id=1-3&scaling=min-zoom&mode=design&t=1X7YZQFNdCM8Qn72-1",
