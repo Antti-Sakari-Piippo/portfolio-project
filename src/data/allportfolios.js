@@ -347,6 +347,16 @@ const portfolios = [
 		image: pixels,
 		title: "Pixels AI [Figma]"
 	},
+	{
+		id: 35,
+		category: "vanilla JS",
+		link1: "https://github.com/Antti-Sakari-Piippo/PIXELS-AI",
+		link2: "https://dancing-stroopwafel-2ecaa8.netlify.app/",
+		icon1: <FontAwesomeIcon icon={faGithub} />,
+		icon2: <Icon icon={netlifyIcon} width="80px" height="80px" />,
+		image: pixels,
+		title: "Pixels Ai site"
+	},
 ];
 
 export default portfolios;
