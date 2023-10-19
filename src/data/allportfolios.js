@@ -290,16 +290,16 @@ const portfolios = [
 		image: woodsLarge,
 		title: "Woods site"
 	},
-	{
-		id: 29,
-		category: "vanilla JS",
-		link1: "https://github.com/Antti-Sakari-Piippo/AnivaJS",
-		link2: "https://kaleidoscopic-melomakarona-5d0426.netlify.app/",
-		icon1: <FontAwesomeIcon icon={faGithub} />,
-		icon2: <Icon icon={netlifyIcon} width="80px" height="80px" />,
-		image: Aniva,
-		title: "Aniva lighthouse site"
-	},
+	// {
+	// 	id: 29,
+	// 	category: "vanilla JS",
+	// 	link1: "https://github.com/Antti-Sakari-Piippo/AnivaJS",
+	// 	link2: "https://kaleidoscopic-melomakarona-5d0426.netlify.app/",
+	// 	icon1: <FontAwesomeIcon icon={faGithub} />,
+	// 	icon2: <Icon icon={netlifyIcon} width="80px" height="80px" />,
+	// 	image: Aniva,
+	// 	title: "Aniva lighthouse site"
+	// },
 	{
 		id: 30,
 		category: "NextJs",
