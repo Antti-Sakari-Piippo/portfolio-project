@@ -23,6 +23,7 @@ import poeJS from "../images/projectImages/poeJS.png";
 import woodsLarge from "../images/projectImages/woodsLarge.png";
 import pixels from "../images/projectImages/pixels.png";
 import steam from "../images/projectImages/steam.png";
+import modernHouses from "../images/projectImages/modern_houses.png";
 
 const portfolios = [
 	{
@@ -356,6 +357,15 @@ const portfolios = [
 		icon2: <Icon icon={netlifyIcon} width="80px" height="80px" />,
 		image: pixels,
 		title: "Pixels Ai site"
+	},
+	{
+		id: 36,
+		category: "figma",
+		link1:
+			"https://www.figma.com/proto/Umu6hp5FJfAANwX2iKq24f/Modern-design?page-id=0%3A1&node-id=42-50&starting-point-node-id=42%3A50&mode=design&t=NuFOa3FkGwxvp04G-1",
+		icon1: <Icon icon={figmaIcon} width="80px" height="80px" />,
+		image: modernHouses,
+		title: "Modern Houses [Figma]"
 	},
 ];
 
