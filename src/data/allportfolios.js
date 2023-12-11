@@ -126,15 +126,15 @@ const portfolios = [
 		image: port1,
 		title: "Customizable website"
 	},
-	{
-		id: 11,
-		category: "figma",
-		link1:
-			"https://www.figma.com/proto/uNcdIc6EmkzxCmHGajkiE5/Poe?node-id=2%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A2",
-		icon1: <Icon icon={figmaIcon} width="80px" height="80px" />,
-		image: theRaven,
-		title: "The Raven by Edgar Allan Poe [Figma]"
-	},
+	// {
+	// 	id: 11,
+	// 	category: "figma",
+	// 	link1:
+	// 		"https://www.figma.com/proto/uNcdIc6EmkzxCmHGajkiE5/Poe?node-id=2%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A2",
+	// 	icon1: <Icon icon={figmaIcon} width="80px" height="80px" />,
+	// 	image: theRaven,
+	// 	title: "The Raven by Edgar Allan Poe [Figma]"
+	// },
 	{
 		id: 12,
 		category: "figma",
