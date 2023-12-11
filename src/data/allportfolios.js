@@ -107,16 +107,6 @@ const portfolios = [
 		title: "Budged Calculator"
 	},
 	{
-		id: 9,
-		category: "Power BI",
-		link1: "",
-		link2: "",
-		icon1: <FontAwesomeIcon icon={faGithub} />,
-		icon2: <Icon icon={netlifyIcon} width="80px" height="80px" />,
-		image: port1,
-		title: "Tieliikenneonnettomuudet (COMING SOON)"
-	},
-	{
 		id: 10,
 		category: "vanilla JS",
 		link1: "https://github.com/Antti-Sakari-Piippo/customisable-website/tree/master",
