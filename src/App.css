@@ -12,6 +12,7 @@
 }
 .hero .hero-text {
   font-size: 2.4rem;
+  margin-bottom: 2rem;
   color: var(--main-font-color);
   text-align: center;
 }
@@ -20,7 +21,8 @@
 }
 
 .h-sub-text {
-  text-align: center;
+  line-height: 1.47;
+  margin-bottom: 1.35rem;
 }
 
 .icons {
