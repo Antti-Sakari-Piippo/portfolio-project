@@ -10,14 +10,14 @@ function HomePage() {
 					Hi, I am&nbsp;
 					<Typed
 						className="typed-text"
-						strings={[ "Antti Piippo", "a web developer", "a web designer", "a data-analysts" ]}
+						strings={["Antti Piippo", "a web developer", "a web designer", "a data-analysts"]}
 						typeSpeed={40}
 						backSpeed={60}
 						loop
 					/>
 				</h1>
 				<p className="h-sub-text">
-					I'm currently looking for job opportunities in web-development and data-analysis.
+					I'm enthusiastic ja dedicated Front-End Web Developer with a strong foundation in HTML, CSS, and JavaScript. I also have knowledge about WordPress, React.js and Next.js. My expertice extends to data-analysis, with proficiency in tools such as Power BI, Google Analytics ajd Python libraries like Matplotlib, Numby, and Seaborn. I like working in a group and independently. My passion for web development and design, coupled with hands-on experience from personal projects, drives my continuos growth in the field.
 				</p>
 				<div className="icons">
 					<a
