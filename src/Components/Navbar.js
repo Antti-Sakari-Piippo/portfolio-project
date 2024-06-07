@@ -26,8 +26,8 @@ function Navbar({ navToggle }) {
 						</NavLink>
 					</li>
 					<li className="nav-item">
-						<NavLink to="/blogs" exact>
-							Blogs
+						<NavLink to="/education" exact>
+							Education/Work
 						</NavLink>
 					</li>
 					<li className="nav-item">
