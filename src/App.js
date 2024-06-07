@@ -97,12 +97,12 @@ const App = () => {
 						<Route path="/portfolios" exact>
 							<PortfoliosPage />
 						</Route>
-						<Route path="/education" exact>
+						<Route path="/blogs" exact>
 							<BlogsPage />
 						</Route>
 					</PageSwitching>
 					<PageSwitching>
-						<Route exact path="/education/:slug">
+						<Route exact path="/blogs/:slug">
 							<Blog />
 						</Route>
 					</PageSwitching>
