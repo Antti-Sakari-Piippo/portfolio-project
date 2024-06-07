@@ -7,7 +7,7 @@ export const BlockList = () => {
 			<h4>All blogs</h4>
 			{blogs.map((blog) => {
 				return (
-					<Link to={`/blogs/${blog.id}`}>
+					<Link to={`/education/${blog.id}`}>
 						<p className="blog-link">{blog.title}</p>
 					</Link>
 				);

@@ -13,15 +13,15 @@ import Brightness4Icon from "@material-ui/icons/Brightness4";
 import Switch from "@material-ui/core/Switch";
 
 const App = () => {
-	const [ toggle, setToggle ] = useState(false);
-	const [ theme, setTheme ] = useState("dark-theme");
-	const [ checked, setChecked ] = useState(false);
+	const [toggle, setToggle] = useState(false);
+	const [theme, setTheme] = useState("dark-theme");
+	const [checked, setChecked] = useState(false);
 
 	useEffect(
 		() => {
 			document.documentElement.className = theme;
 		},
-		[ theme ]
+		[theme]
 	);
 
 	const themeToggler = () => {
@@ -97,12 +97,12 @@ const App = () => {
 						<Route path="/portfolios" exact>
 							<PortfoliosPage />
 						</Route>
-						<Route path="/blogs" exact>
+						<Route path="/education" exact>
 							<BlogsPage />
 						</Route>
 					</PageSwitching>
 					<PageSwitching>
-						<Route exact path="/blogs/:slug">
+						<Route exact path="/education/:slug">
 							<Blog />
 						</Route>
 					</PageSwitching>

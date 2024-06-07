@@ -6,7 +6,7 @@ const blogs = [
 		image: blog,
 		title: "Engineer(OAMK) Information technology",
 		text:
-			'During my time at Oulun Ammattikorkeakoulu (Oulu University of Applied Sciences), where I earned a Bachelor of Information Technology, I developed a strong foundation in software development. My specialization in software development provided me with in-depth knowledge and practical skills in programming languages such as Python, Java, and C++. Through courses like Advanced Programming, Data Structures and Algorithms, Web Development, and Database Management Systems, I gained a comprehensive understanding of both theoretical concepts and their real-world applications."',
+			'During my time at Oulu University of Applied Sciences (Oulun Ammattikorkeakoulu), where I earned a Bachelor of Information Technology, I developed a strong foundation in software development. My specialization in software development provided me with in-depth knowledge and practical skills in programming languages such as Python, Java, and C++. Through courses like Advanced Programming, Data Structures and Algorithms, Web Development, and Database Management Systems, I gained a comprehensive understanding of both theoretical concepts and their real-world applications."',
 		link: "#",
 		year: "2018"
 	},
