@@ -1,0 +1,45 @@
+.HomePage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+}
+
+.hero {
+  max-width: 90ch;
+  margin: 0 auto;
+}
+.hero .hero-text {
+  font-size: 2.4rem;
+  color: var(--main-font-color);
+  text-align: center;
+}
+.hero .hero-text span {
+  color: var(--highlight-color);
+}
+
+.h-sub-text {
+  text-align: center;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 0;
+}
+.icons .icon-holder {
+  margin-right: 1rem;
+}
+.icons .icon-holder .icon {
+  font-size: 2.8rem;
+  color: var(--highlight-color);
+  transition: all 0.15s ease-in-out;
+}
+.icons .icon-holder .github:hover {
+  color: var(--github-color);
+}
+.icons .icon-holder .linkedIn:hover {
+  color: var(--linkedIn-color);
+}/*# sourceMappingURL=home.css.map */
