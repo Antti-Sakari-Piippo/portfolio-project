@@ -1,111 +1,112 @@
 .flex {
-	display: flex;
+  display: flex;
 }
 
 .flex > a {
-	margin: 0.5rem;
+  margin: 0.5rem;
 }
 
 .particles-canvas {
-	width: 100%;
-	height: 96vh;
-	pointer-events: initial;
-	position: absolute;
-	left: 0;
+  width: 100%;
+  height: 96vh;
+  pointer-events: initial;
+  position: absolute;
+  left: 0;
+  opacity: 0.07;
 }
 
 //General Buttons
 button {
-	margin: 0;
-	width: 195px;
-	font-weight: 100;
-	svg {
-		height: 100%;
-		left: 0;
-		position: absolute;
-		top: 0;
-		width: 100%;
-	}
+  margin: 0;
+  width: 195px;
+  font-weight: 100;
+  svg {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
 
-	rect {
-		fill: none;
-		stroke: var(--highlight-color);
-		stroke-width: 2;
-		stroke-dasharray: 422, 0;
-		transition: all 0.35s linear;
-	}
+  rect {
+    fill: none;
+    stroke: var(--highlight-color);
+    stroke-width: 2;
+    stroke-dasharray: 422, 0;
+    transition: all 0.35s linear;
+  }
 }
 
 .btn-1:hover {
-	font-weight: 900;
-	letter-spacing: 1px;
+  font-weight: 900;
+  letter-spacing: 1px;
 
-	rect {
-		stroke-width: 5;
-		stroke-dasharray: 15, 310;
-		stroke-dashoffset: 48;
-		transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
-	}
+  rect {
+    stroke-width: 5;
+    stroke-dasharray: 15, 310;
+    stroke-dashoffset: 48;
+    transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+  }
 }
 
 .buttons {
-	display: grid;
-	gap: 2rem;
-	justify-content: center;
-	grid-template-columns: auto auto;
-	align-items: center;
-	margin: 4rem 10rem;
-	flex-wrap: wrap;
-	@media screen and (max-width: 79.375em) {
-		//1270px
-		margin: 2rem 5rem;
-	}
-	@media screen and (max-width: 68.75em) {
-		//1100px
-		margin: 2rem 2rem;
-	}
+  display: grid;
+  gap: 2rem;
+  justify-content: center;
+  grid-template-columns: auto auto;
+  align-items: center;
+  margin: 4rem 10rem;
+  flex-wrap: wrap;
+  @media screen and (max-width: 79.375em) {
+    //1270px
+    margin: 2rem 5rem;
+  }
+  @media screen and (max-width: 68.75em) {
+    //1100px
+    margin: 2rem 2rem;
+  }
 }
 
 .btn-port {
-	padding: 0.6rem 2rem;
-	background-color: var(--item-background-color);
-	border: none;
-	outline: none;
-	cursor: pointer;
-	font-size: inherit;
-	font-family: inherit;
-	color: var(--main-font-color);
-	transition: all 0.3s ease-in-out;
+  padding: 0.6rem 2rem;
+  background-color: var(--item-background-color);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: inherit;
+  font-family: inherit;
+  color: var(--main-font-color);
+  transition: all 0.3s ease-in-out;
 
-	&:hover,
-	&:active,
-	&:focus {
-		background-color: var(--highlight-color);
-		p {
-			font-weight: 400;
-			white-space: nowrap;
-		}
-	}
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: var(--highlight-color);
+    p {
+      font-weight: 400;
+      white-space: nowrap;
+    }
+  }
 }
 
 .light-dark-mode {
-	position: fixed;
-	right: 0;
-	top: 12%;
-	width: 5rem;
-	height: 2.5rem;
-	z-index: 15;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	svg {
-		display: flex;
-		align-items: center;
-		font-size: 1.7rem;
-		color: var(--white-color);
-	}
+  position: fixed;
+  right: 0;
+  top: 12%;
+  width: 5rem;
+  height: 2.5rem;
+  z-index: 15;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  svg {
+    display: flex;
+    align-items: center;
+    font-size: 1.7rem;
+    color: var(--white-color);
+  }
 }
 
 .MuiSwitch-colorSecondary.Mui-checked + .MuiSwitch-track {
-	background-color: var(--highlight-color) !important;
+  background-color: var(--highlight-color) !important;
 }
