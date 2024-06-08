@@ -159,6 +159,10 @@
 }
 .blogItem .blog-content img {
   width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-color: white;
+  aspect-ratio: 26/13;
   transition: all 0.15s ease-in-out;
 }
 .blogItem .blog-content img:hover {
