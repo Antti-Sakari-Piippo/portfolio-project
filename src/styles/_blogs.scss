@@ -70,6 +70,9 @@
   .wrapper-left {
     img {
       max-width: 25rem;
+      background-color: white;
+      aspect-ratio: 16/9;
+      object-fit: cover;
     }
     .blog-text {
       margin: 1rem 0;

@@ -209,6 +209,10 @@
 }
 .blog-item .wrapper-left img {
   max-width: 25rem;
+  background-color: white;
+  aspect-ratio: 16/9;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .blog-item .wrapper-left .blog-text {
   margin: 1rem 0;
@@ -268,7 +272,6 @@
 .ContactItem .contact img {
   width: 16%;
   padding: 0.6rem;
-  border: 2px solid var(--highlight-color);
 }
 .ContactItem .contact .right-items h6 {
   font-size: 1.4rem;
