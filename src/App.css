@@ -637,12 +637,13 @@ button rect {
 }
 .portfolios .portfolio {
   background-color: var(--item-background-color);
-  padding: 0.5rem;
   border: 2px solid var(--highlight-color);
   min-width: 300px;
 }
 .portfolios .portfolio .image-data {
   position: relative;
+  height: -moz-min-content;
+  height: min-content;
 }
 .portfolios .portfolio .image-data::before {
   content: "";
@@ -693,6 +694,8 @@ button rect {
   transition-timing-function: cubic-bezier(0.59, 0.05, 0.335, 1.55);
 }
 .portfolios .portfolio h5 {
+  display: grid;
+  place-content: center;
   font-size: 1.5rem;
   font-weight: 400;
   color: var(--main-font-color);
@@ -729,7 +732,7 @@ button rect {
 }
 
 :root {
-  --highlight-color: #f06800;
+  --highlight-color: #8f4c19;
   --github-color: white;
   --linkedIn-color: #0e76a8;
 }
