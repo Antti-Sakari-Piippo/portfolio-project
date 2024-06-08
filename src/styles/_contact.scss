@@ -7,13 +7,9 @@
     display: flex;
     align-items: center;
     background-color: var(--background-color);
-    .right-items {
-      margin-left: 2rem;
-    }
     img {
       width: 16%;
-      padding: 1rem;
-      border: 1px solid var(--item-background-color);
+      padding: 0.6rem;
       border: 2px solid var(--highlight-color);
     }
     .right-items {
