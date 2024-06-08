@@ -188,7 +188,7 @@
   margin: auto;
 }
 .blogList h4 {
-  margin-bottom: 0.3rem;
+  margin-bottom: 1.3rem;
   font-family: inherit;
 }
 .blogList p.blog-link {
@@ -245,7 +245,8 @@
   margin-left: 1.5rem;
 }
 .blog-item .wrapper-right p {
-  font-size: 1rem;
+  font-size: 0.9rem;
+  margin-left: 0.7rem;
 }
 @media only screen and (max-width: 1760px) {
   .blog-item .wrapper-right {
