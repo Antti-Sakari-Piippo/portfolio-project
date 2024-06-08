@@ -695,7 +695,9 @@ button rect {
 }
 .portfolios .portfolio h5 {
   display: grid;
+  height: 3rem;
   place-content: center;
+  margin-bottom: 0.4rem;
   font-size: 1.5rem;
   font-weight: 400;
   color: var(--main-font-color);
