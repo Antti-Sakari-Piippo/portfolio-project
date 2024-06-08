@@ -51,17 +51,6 @@ const blogs = [
 		year: "2020"
 	},
 	{
-		id: 5,
-		image: opiframe,
-		title: "ITC-osaaja/Opiframe",
-		text:
-			'During my ITC-osaaja course, I acquired valuable skills in various tools and methodologies essential for IT professionals. The course covered a range of topics including Office 365, Github, SourceTree, and Scrum. In Office 365, I learned to utilize its suite of applications for productivity and collaboration, enhancing my ability to work efficiently in a professional environment. Github and SourceTree training provided me with practical experience in version control and collaboration workflows, essential for software development projects. Moreover, I gained insight into Scrum methodology, learning how to effectively manage projects in an Agile environment. This included understanding Scrum principles, roles, ceremonies, and artifacts, enabling me to contribute effectively to Agile teams and projects.',
-		link: "#",
-		date: "21",
-		month: "September",
-		year: "2020"
-	},
-	{
 		id: 6,
 		image: kaleva,
 		title: "Kaleva Media Oy",
