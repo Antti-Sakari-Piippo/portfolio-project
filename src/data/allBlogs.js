@@ -1,6 +1,6 @@
 import blog from "../images/blogs/defaultBlog.png";
 import kaleva from "../images/blogs/kalevamedia.png";
-import oamk from "../images/blogs/OAMK.png
+import oamk from "../images/blogs/OAMK.png";
 import lucci from "../images/blogs/lucci.jpg";
 import karsamaenlukio from "../images/blogs/karsamaenlukio.png";
 import buutti from "../images/blogs/buuttijpg.jpg";
