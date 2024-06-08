@@ -1,5 +1,5 @@
 import Typed from "react-typed";
-import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function HomePage() {
@@ -28,14 +28,14 @@ function HomePage() {
 					>
 						<FontAwesomeIcon icon={faGithub} className="icon github" />
 					</a>
-					<a
+					{/* <a
 						rel="noopener noreferrer"
 						target="_blank"
 						href="https://linkedin.com/in/piippo-antti"
 						className="icon-holder"
 					>
 						<FontAwesomeIcon icon={faLinkedinIn} className="icon linkedIn" />
-					</a>
+					</a> */}
 				</div>
 			</header>
 		</div>

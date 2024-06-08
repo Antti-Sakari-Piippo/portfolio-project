@@ -24,14 +24,14 @@ function ContactPage() {
 				<div className="contact-sect">
 					<ContactItem title={"Email"} icon={email} text1={"antti.sakari.piippo@gmail.com"} />
 					<ContactItem title={"Phone"} icon={phone} text1={"045 2123490"} />
-					<ContactItem
+					{/* <ContactItem
 						icon={location}
 						title={
 							<a href="https://www.linkedin.com/in/piippo-antti" rel="noopener noreferrer">
 								LinkedIn
 							</a>
 						}
-					/>
+					/> */}
 				</div>
 			</div>
 		</div>
