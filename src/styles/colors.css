@@ -1,7 +1,5 @@
 :root {
   --highlight-color: #f06800;
-
-  //social media colors
   --github-color: white;
   --linkedIn-color: #0e76a8;
 }
@@ -11,8 +9,9 @@
   --item-background-color: #beb7b7;
   --main-font-color: black;
 }
+
 .dark-theme {
   --background-color: #504c4c;
   --item-background-color: #504c4c;
   --main-font-color: white;
-}
+}/*# sourceMappingURL=colors.css.map */
