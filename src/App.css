@@ -208,7 +208,7 @@
   flex-wrap: wrap;
 }
 .blog-item .wrapper-left img {
-  max-width: 70vw;
+  max-width: 25rem;
 }
 .blog-item .wrapper-left .blog-text {
   margin: 1rem 0;
