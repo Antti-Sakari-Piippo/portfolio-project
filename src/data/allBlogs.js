@@ -4,7 +4,7 @@ import oamk from "../images/blogs/OAMK.png";
 import lucci from "../images/blogs/lucci.jpg";
 import karsamaenlukio from "../images/blogs/karsamaenlukio.png";
 import buutti from "../images/blogs/buuttijpg.jpg";
-import valmennuskeskus from "../images/blogs/valmennuskeskuspng.png";
+import valmennuskeskus from "../images/blogs/valmennuskeskus.png";
 import opiframe from "../images/blogs/opiframe.png";
 
 const blogs = [
@@ -15,25 +15,25 @@ const blogs = [
 		text:
 			'During my time at Oulu University of Applied Sciences (Oulun Ammattikorkeakoulu), where I earned a Bachelor of Information Technology, I developed a strong foundation in software development. My specialization in software development provided me with in-depth knowledge and practical skills in programming languages such as Python, Java, and C++. Through courses like Advanced Programming, Data Structures and Algorithms, Web Development, and Database Management Systems, I gained a comprehensive understanding of both theoretical concepts and their real-world applications.',
 		link: "#",
-		year: "2018"
+		year: "2013-2018"
 	},
 	{
 		id: 2,
 		image: karsamaenlukio,
 		title: "Kärsämäki high school",
 		text:
-			'"During my high school studies at Kärsämäen lukio, I developed a solid foundation in STEM subjects, particularly in mathematics and computer science. Courses in advanced mathematics and introductory programming sparked my interest in technology and problem-solving. I participated in various science fairs, where I presented projects that integrated both theoretical knowledge and practical application, enhancing my research and presentation skills.',
+			'During my high school studies at Kärsämäki high school, I developed a solid foundation in STEM subjects, particularly in mathematics and computer science. Courses in advanced mathematics and introductory programming sparked my interest in technology and problem-solving. I participated in various science fairs, where I presented projects that integrated both theoretical knowledge and practical application, enhancing my research and presentation skills.',
 		link: "#",
 		date: "12",
 		month: "June",
-		year: "2021"
+		year: "2009-2012"
 	},
 	{
 		id: 3,
 		image: buutti,
 		title: "Work and Code/Buutti",
 		text:
-			'Work and Code: Full Stack" -course, I gained comprehensive skills in full stack development, focusing on React.js. The program covered front-end and back-end technologies, enabling me to build complete web applications. I learned advanced React.js concepts such as component architecture and state management. Additionally, I studied server-side development using Node.js and Express.js, along with database management with MongoDB. Through projects, I gained practical experience and improved teamwork skills, equipping me to tackle web development challenges',
+			'Taking part in "Work and Code: Full Stack" -course, I gained skills in full stack development, focusing on React.js. The program covered front-end and back-end technologies, enabling me to build complete web applications. I learned advanced React.js concepts such as component architecture and state management. Additionally, I studied server-side development using Node.js and Express.js, along with database management with MongoDB. Through projects, I gained practical experience and improved teamwork skills, equipping me to tackle web development challenges',
 		link: "#",
 		date: "24",
 		month: "july",
@@ -51,7 +51,7 @@ const blogs = [
 		year: "2020"
 	},
 	{
-		id: 6,
+		id: 5,
 		image: kaleva,
 		title: "Kaleva Media Oy",
 		text:
@@ -59,7 +59,7 @@ const blogs = [
 		link: "#",
 		date: "16",
 		month: "November",
-		year: "2020"
+		year: "2022"
 	},
 	{
 		id: 6,
