@@ -57,7 +57,7 @@
 .ImageSection .img img {
   width: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   height: 100%;
 }
 .ImageSection .about-info {
@@ -120,7 +120,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   -moz-column-gap: 4rem;
-       column-gap: 4rem;
+  column-gap: 4rem;
   row-gap: 3rem;
   margin: 4rem 0;
 }
@@ -160,7 +160,7 @@
 .blogItem .blog-content img {
   width: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   background-color: white;
   aspect-ratio: 26/13;
   transition: all 0.15s ease-in-out;
@@ -175,6 +175,7 @@
 
 .blog-link {
   margin-bottom: 0.45rem;
+  margin-top: 0.6rem;
   color: var(--main-font-color);
   font-family: inherit;
   text-decoration: none;
@@ -398,10 +399,14 @@ button rect {
   color: var(--main-font-color);
   transition: all 0.3s ease-in-out;
 }
-.btn-port:hover, .btn-port:active, .btn-port:focus {
+.btn-port:hover,
+.btn-port:active,
+.btn-port:focus {
   background-color: var(--highlight-color);
 }
-.btn-port:hover p, .btn-port:active p, .btn-port:focus p {
+.btn-port:hover p,
+.btn-port:active p,
+.btn-port:focus p {
   font-weight: 400;
   white-space: nowrap;
 }
@@ -626,7 +631,7 @@ button rect {
   grid-template-columns: repeat(3, 1fr);
   row-gap: 2rem;
   -moz-column-gap: 1rem;
-       column-gap: 1rem;
+  column-gap: 1rem;
 }
 @media screen and (max-width: 100em) {
   .portfolios {
@@ -663,7 +668,7 @@ button rect {
   width: 100%;
   height: 30vh;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .portfolios .portfolio .image-data .svg-inline--fa.fa-w-16,
 .portfolios .portfolio .image-data .fa-w-18 {
@@ -775,7 +780,8 @@ body::-webkit-scrollbar-track {
 
 body {
   color: var(--main-font-color);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 1.4rem;
 }
 
@@ -811,4 +817,4 @@ span {
     margin-left: 0;
     width: 100%;
   }
-}/*# sourceMappingURL=App.css.map */
+} /*# sourceMappingURL=App.css.map */
