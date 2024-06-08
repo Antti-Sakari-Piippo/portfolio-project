@@ -4,7 +4,7 @@ const blogs = [
 	{
 		id: 1,
 		image: blog,
-		title: "Engineer (OAMK) Information technology",
+		title: "OAMK",
 		text:
 			'During my time at Oulu University of Applied Sciences (Oulun Ammattikorkeakoulu), where I earned a Bachelor of Information Technology, I developed a strong foundation in software development. My specialization in software development provided me with in-depth knowledge and practical skills in programming languages such as Python, Java, and C++. Through courses like Advanced Programming, Data Structures and Algorithms, Web Development, and Database Management Systems, I gained a comprehensive understanding of both theoretical concepts and their real-world applications.',
 		link: "#",
@@ -13,7 +13,7 @@ const blogs = [
 	{
 		id: 2,
 		image: blog,
-		title: "Kärsämäen lukio",
+		title: "Kärsämäki high school",
 		text:
 			'"During my high school studies at Kärsämäen lukio, I developed a solid foundation in STEM subjects, particularly in mathematics and computer science. Courses in advanced mathematics and introductory programming sparked my interest in technology and problem-solving. I participated in various science fairs, where I presented projects that integrated both theoretical knowledge and practical application, enhancing my research and presentation skills.',
 		link: "#",
@@ -24,9 +24,9 @@ const blogs = [
 	{
 		id: 3,
 		image: blog,
-		title: "Work and Code: Full Stack/Valmennuskeskus",
+		title: "Work and Code/Buutti",
 		text:
-			'Work and Code: Full Stack -koulutusohjelma" course, I gained comprehensive skills in full stack development, focusing on React.js. The program covered front-end and back-end technologies, enabling me to build complete web applications. I learned advanced React.js concepts such as component architecture and state management. Additionally, I studied server-side development using Node.js and Express.js, along with database management with MongoDB. Through projects, I gained practical experience and improved teamwork skills, equipping me to tackle web development challenges',
+			'Work and Code: Full Stack" -course, I gained comprehensive skills in full stack development, focusing on React.js. The program covered front-end and back-end technologies, enabling me to build complete web applications. I learned advanced React.js concepts such as component architecture and state management. Additionally, I studied server-side development using Node.js and Express.js, along with database management with MongoDB. Through projects, I gained practical experience and improved teamwork skills, equipping me to tackle web development challenges',
 		link: "#",
 		date: "24",
 		month: "july",
@@ -57,7 +57,7 @@ const blogs = [
 	{
 		id: 6,
 		image: blog,
-		title: "Kaleva Media",
+		title: "Kaleva Media Oy",
 		text:
 			'During my time at Kaleva Media, I conducted data analysis projects to understand user engagement and content consumption. Using tools like Google Analytics, I tracked website traffic and user demographics, providing insights for optimizing content delivery and user experience. Collaborating with various teams, I interpreted data findings to inform content strategy and marketing campaigns, honing my skills in media analytics and decision-making.',
 		link: "#",
