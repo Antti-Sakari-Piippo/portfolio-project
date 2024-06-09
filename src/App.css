@@ -234,7 +234,7 @@ button.blog-link {
   display: flex;
   width: 6.25rem;
   justify-content: space-around;
-  padding: 0.1rem 0.5rem;
+  padding: 0.5rem;
   border: 1px solid white;
   cursor: pointer;
   color: var(--main-font-color);
