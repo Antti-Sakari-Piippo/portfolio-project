@@ -227,7 +227,8 @@
   font-style: oblique;
 }
 .blog-item .wrapper-left .button {
-  display: inline-block;
+  display: flex;
+  justify-content: space-around;
   padding: 0.1rem 0.5rem;
   border: 1px solid white;
   cursor: pointer;
