@@ -187,6 +187,10 @@
   transform: rotate(270deg);
 }
 
+button.blog-link {
+  width: 6.25em;
+}
+
 .blogList {
   margin: auto;
 }
