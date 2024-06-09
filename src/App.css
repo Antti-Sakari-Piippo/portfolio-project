@@ -768,7 +768,7 @@ button rect {
 
 span {
   line-height: 1;
-  color: white;
+  color: var(--highlight-color);
 }
 
 body::-webkit-scrollbar {
