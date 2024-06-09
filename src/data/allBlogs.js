@@ -9,22 +9,13 @@ import opiframe from "../images/blogs/opiframe.png";
 
 const blogs = [
 	{
-		id: 1,
-		image: oamk,
-		title: "OAMK",
+		id: 5,
+		image: kaleva,
+		title: "Kaleva Media Oy",
 		text:
-			'During my time at Oulu University of Applied Sciences (Oulun Ammattikorkeakoulu), where I earned a Bachelor of Information Technology, I developed a strong foundation in software development. My specialization in software development provided me with in-depth knowledge and practical skills in programming languages such as Python, Java, and C++. Through courses like Advanced Programming, Data Structures and Algorithms, Web Development, and Database Management Systems, I gained a comprehensive understanding of both theoretical concepts and their real-world applications.',
+			'During my time at Kaleva Media, I conducted data analysis projects to understand user engagement and content consumption. Using tools like Snowflake, Tableau, python, I tracked website traffic and user demographics, providing insights for optimizing content delivery and user experience. Collaborating with various teams, I interpreted data findings to inform content strategy and marketing campaigns, honing my skills in media analytics and decision-making.',
 		link: "#",
-		year: "2013-2018"
-	},
-	{
-		id: 2,
-		image: karsamaenlukio,
-		title: "Kärsämäki high school",
-		text:
-			'During my high school studies at Kärsämäki high school, I developed a solid foundation in STEM subjects, particularly in mathematics and computer science. Courses in advanced mathematics and introductory programming sparked my interest in technology and problem-solving. I participated in various science fairs, where I presented projects that integrated both theoretical knowledge and practical application, enhancing my research and presentation skills.',
-		link: "#",
-		year: "2009-2012"
+		year: "2022-2023"
 	},
 	{
 		id: 3,
@@ -45,15 +36,6 @@ const blogs = [
 		year: "2021"
 	},
 	{
-		id: 5,
-		image: kaleva,
-		title: "Kaleva Media Oy",
-		text:
-			'During my time at Kaleva Media, I conducted data analysis projects to understand user engagement and content consumption. Using tools like Snowflake, Tableau, python, I tracked website traffic and user demographics, providing insights for optimizing content delivery and user experience. Collaborating with various teams, I interpreted data findings to inform content strategy and marketing campaigns, honing my skills in media analytics and decision-making.',
-		link: "#",
-		year: "2022-2023"
-	},
-	{
 		id: 6,
 		image: lucci,
 		title: "Lucci Oy",
@@ -61,6 +43,24 @@ const blogs = [
 			'While my employment at Lucci Oy, my primary responsibility was the implementation of WordPress websites based on designs provided by the design team or clients. Working closely with designers, I translated their design mockups into functional websites using WordPress as the content management system (CMS).\n\nMy role involved setting up WordPress installations, configuring themes, and customizing layouts to match the provided designs. I also integrated necessary plugins and functionalities to ensure the websites met the desired specifications and requirements.\n\nThroughout the process, I maintained clear communication with designers and clients to address any questions or concerns and ensure that the final website accurately reflected the intended design and met the client\'s expectations.\n\nMy experience at Lucci Oy allowed me to refine my skills in WordPress development and collaboration with design teams, enabling me to efficiently bring design concepts to life in the form of fully functional websites.',
 		link: "#",
 		year: "2019-2020"
+	},
+	{
+		id: 1,
+		image: oamk,
+		title: "OAMK",
+		text:
+			'During my time at Oulu University of Applied Sciences (Oulun Ammattikorkeakoulu), where I earned a Bachelor of Information Technology, I developed a strong foundation in software development. My specialization in software development provided me with in-depth knowledge and practical skills in programming languages such as Python, Java, and C++. Through courses like Advanced Programming, Data Structures and Algorithms, Web Development, and Database Management Systems, I gained a comprehensive understanding of both theoretical concepts and their real-world applications.',
+		link: "#",
+		year: "2013-2018"
+	},
+	{
+		id: 2,
+		image: karsamaenlukio,
+		title: "Kärsämäki high school",
+		text:
+			'During my high school studies at Kärsämäki high school, I developed a solid foundation in STEM subjects, particularly in mathematics and computer science. Courses in advanced mathematics and introductory programming sparked my interest in technology and problem-solving. I participated in various science fairs, where I presented projects that integrated both theoretical knowledge and practical application, enhancing my research and presentation skills.',
+		link: "#",
+		year: "2009-2012"
 	},
 ];
 
