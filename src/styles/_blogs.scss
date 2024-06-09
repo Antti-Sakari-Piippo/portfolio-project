@@ -34,7 +34,7 @@
   }
 }
 
-.blog-link {
+.blog-link:not(button) {
   margin-block: 1rem 0.4rem;
   color: var(--main-font-color);
   font-family: inherit;
@@ -99,10 +99,6 @@
       }
       i {
         padding: 0.1rem 0.3rem 0.1rem 0.1rem;
-      }
-      &.blog-link {
-        margin-bottom: 2rem;
-        padding-bottom: 0.33rem;
       }
     }
   }

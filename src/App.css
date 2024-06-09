@@ -173,17 +173,17 @@
   color: var(--main-font-color);
 }
 
-.blog-link {
+.blog-link:not(button) {
   margin-block: 1rem 0.4rem;
   color: var(--main-font-color);
   font-family: inherit;
   text-decoration: none;
   transition: all 0.2s ease-in-out;
 }
-.blog-link:hover {
+.blog-link:not(button):hover {
   color: var(--highlight-color);
 }
-.blog-link > img {
+.blog-link:not(button) > img {
   transform: rotate(270deg);
 }
 
@@ -240,10 +240,6 @@
 }
 .blog-item .wrapper-left .button i {
   padding: 0.1rem 0.3rem 0.1rem 0.1rem;
-}
-.blog-item .wrapper-left .button.blog-link {
-  margin-bottom: 2rem;
-  padding-bottom: 0.33rem;
 }
 .blog-item .wrapper-right .BlockList {
   margin-left: 1.5rem;
