@@ -20,7 +20,7 @@ export const Blog = () => {
 					</p>
 					<br />
 					<Link to={`/blogs/`} className="button blog-link">
-						<embed src="/src/images/arrow.svg" alt="back arrow" />
+						<svg src="/src/images/arrow.svg" alt="back arrow" />
 						Back
 					</Link>
 				</div>
