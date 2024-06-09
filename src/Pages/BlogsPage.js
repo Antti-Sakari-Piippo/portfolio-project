@@ -6,7 +6,7 @@ function BlogsPage() {
 	return (
 		<div className="BlogsPage">
 			<div className="blogs-title">
-				<Tittle title={"Recent Blogs"} span={"Recent Blogs"} />
+				<Tittle title={"Recent"} span={"Recent"} />
 			</div>
 			<div className="blogs">
 				{blogs.map((blog) => {
