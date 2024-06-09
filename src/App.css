@@ -232,6 +232,7 @@ button.blog-link {
 }
 .blog-item .wrapper-left .button {
   display: flex;
+  width: 6.25rem;
   justify-content: space-around;
   padding: 0.1rem 0.5rem;
   border: 1px solid white;
@@ -771,6 +772,7 @@ button rect {
 
 span {
   line-height: 1;
+  color: white;
 }
 
 body::-webkit-scrollbar {
