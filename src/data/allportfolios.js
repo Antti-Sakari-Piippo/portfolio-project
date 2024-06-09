@@ -239,7 +239,7 @@ const portfolios = [
 		icon1: <FontAwesomeIcon icon={faGithub} />,
 		icon2: <Icon icon={netlifyIcon} width="80px" height="80px" />,
 		image: poeJS,
-		title: "The Raven by Edgar Allan Poe"
+		title: "The Raven by Edgar Allan Poe website"
 	},
 	{
 		id: 25,
@@ -249,7 +249,7 @@ const portfolios = [
 		icon1: <FontAwesomeIcon icon={faGithub} />,
 		icon2: <Icon icon={netlifyIcon} width="80px" height="80px" />,
 		image: ocianica,
-		title: "Ocianica travel site"
+		title: "Ocianica travel webdsite"
 	},
 	{
 		id: 26,
@@ -259,7 +259,7 @@ const portfolios = [
 		icon1: <FontAwesomeIcon icon={faGithub} />,
 		icon2: <Icon icon={netlifyIcon} width="80px" height="80px" />,
 		image: Mountain,
-		title: "Mountain expedition travel site"
+		title: "Mountain expedition travel website"
 	},
 	{
 		id: 27,
@@ -269,7 +269,7 @@ const portfolios = [
 		icon1: <FontAwesomeIcon icon={faGithub} />,
 		icon2: <Icon icon={netlifyIcon} width="80px" height="80px" />,
 		image: Tolkien,
-		title: "J.R.R Tolkien site"
+		title: "J.R.R Tolkien website"
 	},
 	{
 		id: 28,
@@ -279,7 +279,7 @@ const portfolios = [
 		icon1: <FontAwesomeIcon icon={faGithub} />,
 		icon2: <Icon icon={netlifyIcon} width="80px" height="80px" />,
 		image: woodsLarge,
-		title: "Woods site"
+		title: "Woods website"
 	},
 	// {
 	// 	id: 29,
@@ -297,7 +297,7 @@ const portfolios = [
 		link1: "https://github.com/Antti-Sakari-Piippo/woods-nextjs",
 		icon1: <FontAwesomeIcon icon={faGithub} />,
 		image: woodsLarge,
-		title: "NextJs Woods site"
+		title: "NextJs Woods website"
 	},
 	{
 		id: 31,
@@ -307,7 +307,7 @@ const portfolios = [
 		icon1: <FontAwesomeIcon icon={faGithub} />,
 		icon2: <Icon icon={netlifyIcon} width="80px" height="80px" />,
 		image: choco,
-		title: "Chocolate store site"
+		title: "Chocolate store website"
 	},
 	{
 		id: 32,
@@ -317,7 +317,7 @@ const portfolios = [
 		icon1: <FontAwesomeIcon icon={faGithub} />,
 		icon2: <Icon icon={netlifyIcon} width="80px" height="80px" />,
 		image: HPLovecraft,
-		title: "H.P Lovecraft fan site"
+		title: "H.P Lovecraft website"
 	},
 	{
 		id: 33,
@@ -346,7 +346,7 @@ const portfolios = [
 		icon1: <FontAwesomeIcon icon={faGithub} />,
 		icon2: <Icon icon={netlifyIcon} width="80px" height="80px" />,
 		image: pixels,
-		title: "Pixels Ai site"
+		title: "Pixels AI website"
 	},
 	{
 		id: 36,
