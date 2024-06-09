@@ -9,7 +9,7 @@ import opiframe from "../images/blogs/opiframe.png";
 
 const blogs = [
 	{
-		id: 5,
+		id: 1,
 		image: kaleva,
 		title: "Kaleva Media Oy",
 		text:
@@ -18,7 +18,7 @@ const blogs = [
 		year: "2022-2023"
 	},
 	{
-		id: 3,
+		id: 2,
 		image: buutti,
 		title: "Work and Code/Buutti",
 		text:
@@ -27,7 +27,7 @@ const blogs = [
 		year: "2022"
 	},
 	{
-		id: 4,
+		id: 3,
 		image: opiframe,
 		title: "Data-analysis/Opiframe",
 		text:
@@ -36,7 +36,7 @@ const blogs = [
 		year: "2021"
 	},
 	{
-		id: 6,
+		id: 4,
 		image: lucci,
 		title: "Lucci Oy",
 		text:
@@ -45,7 +45,7 @@ const blogs = [
 		year: "2019-2020"
 	},
 	{
-		id: 1,
+		id: 5,
 		image: oamk,
 		title: "OAMK",
 		text:
@@ -54,7 +54,7 @@ const blogs = [
 		year: "2013-2018"
 	},
 	{
-		id: 2,
+		id: 6,
 		image: karsamaenlukio,
 		title: "Kärsämäki high school",
 		text:
