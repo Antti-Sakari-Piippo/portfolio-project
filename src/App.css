@@ -183,8 +183,8 @@
 .blog-link:hover {
   color: var(--highlight-color);
 }
-.blog-link img {
-  transform: rotate(180deg);
+.blog-link > img {
+  transform: rotate(270deg);
 }
 
 .blogList {

@@ -43,8 +43,8 @@
   &:hover {
     color: var(--highlight-color);
   }
-  img {
-    transform: rotate(180deg);
+  > img {
+    transform: rotate(270deg);
   }
 }
 
