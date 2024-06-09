@@ -200,7 +200,6 @@ button.blog-link {
 }
 .blogList p.blog-link {
   color: var(--main-font-color);
-  padding: 0.2rem;
 }
 .blogList p.blog-link:hover {
   color: var(--highlight-color);
