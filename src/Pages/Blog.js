@@ -15,11 +15,9 @@ export const Blog = () => {
 				<div className="wrapper-left">
 					<img src={currentItem.image} alt="blog" />
 					<p className="blog-text">{currentItem.text}</p>
-					<br />
 					<p className="blog-date">
 						{currentItem.date} {currentItem.month} {currentItem.year}
 					</p>
-					<br />
 					<Link to={`/blogs/`} className="button blog-link">
 						<img className="back-arrow" src={arrow} alt="back arrow" />
 						<span>Back</span>
