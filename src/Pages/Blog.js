@@ -2,6 +2,7 @@ import { useParams } from "react-router-dom";
 import { BlockList } from "../Components/BlockList";
 import blogs from "../data/allBlogs";
 import { Link } from "react-router-dom";
+import arrow from "../images/arrow.svg";
 
 export const Blog = () => {
 	let { slug } = useParams();
@@ -20,7 +21,7 @@ export const Blog = () => {
 					</p>
 					<br />
 					<Link to={`/blogs/`} className="button blog-link">
-						<img src="/src/images/arrow.jpg" alt="back arrow" />
+						<img src={arrow} alt="back arrow" />
 						Back
 					</Link>
 				</div>
