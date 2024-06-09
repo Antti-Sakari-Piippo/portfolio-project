@@ -92,6 +92,7 @@ button.blog-link {
     }
     .button {
       display: flex;
+      margin-top: 2.5rem;
       width: 6.25rem;
       justify-content: space-around;
       padding: 0.5rem;
@@ -99,6 +100,7 @@ button.blog-link {
       cursor: pointer;
       color: var(--main-font-color);
       transition: all 0.15s ease-in-out;
+
       &:hover {
         transition: all 0.2s ease-in-out;
         color: var(--highlight-color);

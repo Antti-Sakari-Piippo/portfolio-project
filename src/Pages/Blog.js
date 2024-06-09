@@ -19,7 +19,7 @@ export const Blog = () => {
 						{currentItem.date} {currentItem.month} {currentItem.year}
 					</p>
 					<Link to={`/blogs/`} className="button blog-link">
-						<img className="back-arrow" src={arrow} alt="back arrow" />
+						<img src={arrow} alt="back arrow" />
 						<span>Back</span>
 					</Link>
 				</div>
