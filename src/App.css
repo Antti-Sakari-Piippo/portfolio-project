@@ -765,6 +765,10 @@ button rect {
   box-sizing: border-box;
 }
 
+span {
+  line-height: 1;
+}
+
 body::-webkit-scrollbar {
   width: 8px;
 }

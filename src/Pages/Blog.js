@@ -22,7 +22,7 @@ export const Blog = () => {
 					<br />
 					<Link to={`/blogs/`} className="button blog-link">
 						<img className="back-arrow" src={arrow} alt="back arrow" />
-						Back
+						<span>Back</span>
 					</Link>
 				</div>
 				<div className="wrapper-right">
