@@ -97,11 +97,12 @@ button.blog-link {
       padding: 0.1rem 0.5rem;
       border: 1px solid white;
       cursor: pointer;
+      color: var(--main-font-color);
       transition: all 0.15s ease-in-out;
       &:hover {
         transition: all 0.2s ease-in-out;
-        color: var(--main-font-color);
-        background-color: var(--highlight-color);
+        color: var(--highlight-color);
+        border: 1px solid var(--highlight-color);
       }
       i {
         padding: 0.1rem 0.3rem 0.1rem 0.1rem;

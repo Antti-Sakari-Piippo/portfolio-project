@@ -237,12 +237,13 @@ button.blog-link {
   padding: 0.1rem 0.5rem;
   border: 1px solid white;
   cursor: pointer;
+  color: var(--main-font-color);
   transition: all 0.15s ease-in-out;
 }
 .blog-item .wrapper-left .button:hover {
   transition: all 0.2s ease-in-out;
-  color: var(--main-font-color);
-  background-color: var(--highlight-color);
+  color: var(--highlight-color);
+  border: 1px solid var(--highlight-color);
 }
 .blog-item .wrapper-left .button i {
   padding: 0.1rem 0.3rem 0.1rem 0.1rem;
@@ -331,10 +332,6 @@ button.blog-link {
 
 .flex > a {
   margin: 0.5rem;
-}
-
-.back-arrow {
-  color: var(--highlight-color);
 }
 
 .particles-canvas {
