@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 export const Blog = () => {
 	let { slug } = useParams();
-	const blogsArray = [ ...blogs.map((item) => item) ];
+	const blogsArray = [...blogs.map((item) => item)];
 	const currentItem = blogsArray[slug - 1];
 	return (
 		<div>
@@ -20,7 +20,7 @@ export const Blog = () => {
 					</p>
 					<br />
 					<Link to={`/blogs/`} className="button blog-link">
-						<i className="fas fa-angle-left" />
+						<img src="/src/images/arrow.svg" alt="back arrow" />
 						Back
 					</Link>
 				</div>

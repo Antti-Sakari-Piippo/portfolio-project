@@ -35,13 +35,16 @@
 }
 
 .blog-link {
-  margin-bottom: 0.45rem;
+  margin-block: 1rem 0.4rem;
   color: var(--main-font-color);
   font-family: inherit;
   text-decoration: none;
   transition: all 0.2s ease-in-out;
   &:hover {
     color: var(--highlight-color);
+  }
+  img {
+    transform: 90deg;
   }
 }
 
