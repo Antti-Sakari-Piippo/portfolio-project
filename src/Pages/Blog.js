@@ -21,6 +21,7 @@ export const Blog = () => {
 					<br />
 					<Link to={`/blogs/`} className="button blog-link">
 						<img src="/images/arrow.svg" alt="back arrow" />
+						<img src="/src/images/arrow.svg" alt="back arrow" />
 						Back
 					</Link>
 				</div>
