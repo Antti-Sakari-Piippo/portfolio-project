@@ -1,13 +1,9 @@
 .HomePage {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 80%;
+  max-width: 64ch;
+  margin-block-start: 5rem;
 }
 
 .hero {
-  max-width: 90ch;
   margin: 0 auto;
 }
 .hero .hero-text {
@@ -49,8 +45,7 @@
 
 .ImageSection {
   display: flex;
-  margin-top: 4rem;
-  margin-bottom: 4rem;
+  margin-block: 4rem;
 }
 .ImageSection .img {
   max-width: 13rem;
@@ -543,7 +538,6 @@ button rect {
   right: 4%;
   top: 6%;
   width: 4rem;
-  display: none;
   display: flex;
   align-items: center;
   justify-content: space-between;
