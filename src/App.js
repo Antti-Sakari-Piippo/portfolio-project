@@ -6,7 +6,7 @@ import AboutPage from "./Pages/AboutPage";
 import PortfoliosPage from "./Pages/PortfoliosPage";
 import BlogsPage from "./Pages/BlogsPage";
 import ContactPage from "./Pages/ContactPage";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import Particles from "react-particles-js";
 import { Blog } from "./Pages/Blog";
 import Brightness4Icon from "@material-ui/icons/Brightness4";
@@ -17,12 +17,11 @@ const App = () => {
 	const [theme, setTheme] = useState("dark-theme");
 	const [checked, setChecked] = useState(false);
 
-	useEffect(
-		() => {
-			document.documentElement.className = theme;
-		},
-		[theme]
-	);
+	const navbarRef = useRef();
+
+	useEffect(() => {
+		document.documentElement.className = theme;
+	}, [theme]);
 
 	const themeToggler = () => {
 		if (theme === "light-theme") {
@@ -38,9 +37,25 @@ const App = () => {
 		setToggle(!toggle);
 	};
 
+	const handleClickOutside = (event) => {
+		if (navbarRef.current && !navbarRef.current.contains(event.target)) {
+			setToggle(false);
+		}
+	};
+
+	useEffect(() => {
+		document.addEventListener("click", handleClickOutside);
+		return () => {
+			document.removeEventListener("click", handleClickOutside);
+		};
+	}, []);
+
 	return (
 		<div className="App">
-			<div className={`Navbar-holder ${toggle ? "nav-toggle" : ""}`}>
+			<div
+				className={`Navbar-holder ${toggle ? "nav-toggle" : ""}`}
+				ref={navbarRef}
+			>
 				<Navbar navToggle={navToggle} />
 			</div>
 			<div className="nav-btn" onClick={navToggle}>
