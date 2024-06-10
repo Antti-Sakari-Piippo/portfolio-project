@@ -58,7 +58,7 @@ a {
   display: grid;
   position: relative;
   .content {
-    width: min(calc(100% - 2rem), var(--content-width));
+    width: min(calc(100% - 2rem), var(--content-width)) !important;
   }
   @media screen and (max-width: 62.5em) {
     // 1000px
