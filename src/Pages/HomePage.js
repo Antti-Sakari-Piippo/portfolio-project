@@ -16,9 +16,9 @@ function HomePage() {
 						loop
 					/>
 				</h1>
-				<p className="h-sub-text">I'm enthusiastic ja dedicated Front-End Web Developer with a strong foundation in HTML, CSS, and JavaScript. I also have knowledge about WordPress, React.js and Next.js.</p>
+				<p className="h-sub-text">I'm enthusiastic ja dedicated Front-End Web Developer with a strong foundation in HTML, CSS, and JavaScript. I also have knowledge about WordPress, React.js and Next.js. My passion for web development and design, coupled with hands-on experience from personal projects, drives my continuos growth in the field.</p>
 				<p className="h-sub-text">My expertize extends to data-analysis, with proficiency in tools such as Power BI, Google Analytics and Python libraries like Matplotlib, Numby, and Seaborn.</p>
-				<p className="h-sub-text">My passion for web development and design, coupled with hands-on experience from personal projects, drives my continuos growth in the field. Asside from my experience in tech, I am a lumberjack and I have done accounting for a company using FabricAi and Procounter. I like working in a group and independently.</p>
+				<p className="h-sub-text">Aside from my experience in tech, I am a lumberjack and I have done accounting for a company using FabricAi and Procounter. I like working in a group and independently.</p>
 				<div className="icons">
 					<a
 						rel="noopener noreferrer"
