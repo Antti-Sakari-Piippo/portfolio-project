@@ -23,6 +23,7 @@
 .h-sub-text {
   line-height: 1.47;
   margin-bottom: 1.35rem;
+  text-wrap: pretty;
 }
 
 .icons {
