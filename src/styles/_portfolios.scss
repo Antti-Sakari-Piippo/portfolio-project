@@ -13,7 +13,10 @@
 .portfolios {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(var(--card-width), 1fr));
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(var(--card-width, 24rem), 1fr)
+  );
   row-gap: 2rem;
   column-gap: 1rem;
 
