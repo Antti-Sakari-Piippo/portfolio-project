@@ -57,9 +57,7 @@ a {
   min-height: 100vh;
   display: grid;
   position: relative;
-  // overflow-y: hidden;
   .content {
-    // margin: 2rem clamp(5rem, 15%, 10rem) 4rem clamp(5rem, 15%, 10rem);
     width: min(calc(100% - 2rem), var(--content-width));
   }
   @media screen and (max-width: 62.5em) {
