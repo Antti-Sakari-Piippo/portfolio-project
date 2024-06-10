@@ -57,12 +57,9 @@ a {
   min-height: 100vh;
   display: grid;
   position: relative;
-  overflow-y: hidden;
+  // overflow-y: hidden;
   .content {
-    margin-top: 2rem;
-    margin-bottom: 4rem;
-    margin-left: clamp(5rem, 15%, 10rem);
-    margin-right: clamp(5rem, 15%, 10rem);
+    margin: 2rem clamp(5rem, 15%, 10rem) 4rem clamp(5rem, 15%, 10rem);
   }
   @media screen and (max-width: 62.5em) {
     // 1000px
