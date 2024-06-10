@@ -18,6 +18,7 @@ const App = () => {
 	const [checked, setChecked] = useState(false);
 
 	const navbarRef = useRef();
+	const mainContentRef = useRef();
 
 	useEffect(() => {
 		document.documentElement.className = theme;
@@ -38,7 +39,10 @@ const App = () => {
 	};
 
 	const handleClickOutside = (event) => {
-		if (navbarRef.current && !navbarRef.current.contains(event.target)) {
+		if (
+			(navbarRef.current && !navbarRef.current.contains(event.target)) &&
+			(mainContentRef.current && mainContentRef.current.contains(event.target))
+		) {
 			setToggle(false);
 		}
 	};
@@ -58,7 +62,7 @@ const App = () => {
 			>
 				<Navbar navToggle={navToggle} />
 			</div>
-			<div className="nav-btn" onClick={navToggle}>
+			<div id="nav-btn" className="nav-btn" onClick={navToggle}>
 				<div className="lines-1" />
 				<div className="lines-2" />
 				<div className="lines-3" />
@@ -79,7 +83,7 @@ const App = () => {
 					</div>
 				</div>
 			</div>
-			<div className="main-content">
+			<div className="main-content" id="main-content" ref={mainContentRef}>
 				<div className="content">
 					<PageSwitching>
 						<Route path="/" exact>
