@@ -10,7 +10,7 @@ function ImageSection() {
 				<h4>
 					I am<span> Antti Piippo</span>
 				</h4>
-				<p className="about-text">I'm passionate about what I do and hard working.</p>
+				{/* <p className="about-text">I'm passionate about what I do and hard working.</p> */}
 				<div className="about-details">
 					<div className="left-section">
 						<p>Full Name</p>
