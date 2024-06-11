@@ -15,7 +15,7 @@ const blogs = [
 		text:
 			'During my time at Kaleva Media, I conducted data analysis projects to understand user engagement and content consumption. Using tools like Snowflake, Tableau, python, I tracked website traffic and user demographics, providing insights for optimizing content delivery and user experience. Collaborating with various teams, I interpreted data findings to inform content strategy and marketing campaigns, honing my skills in media analytics and decision-making.',
 		link: "#",
-		year: "2022-2023"
+		year: "2022"
 	},
 	{
 		id: 2,
