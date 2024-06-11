@@ -6,7 +6,7 @@ function BlogsPage() {
 	return (
 		<div className="BlogsPage">
 			<div className="blogs-title">
-				<Tittle title={"Education/work experience"} span={"Education/work experience"} />
+				<Tittle title={"Education and work experience"} span={"Education and work experience"} />
 			</div>
 			<div className="blogs">
 				{blogs.map((blog) => {
