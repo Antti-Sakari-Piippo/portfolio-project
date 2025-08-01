@@ -801,7 +801,7 @@ a:hover {
   position: relative;
 }
 .main-content .content {
-  width: min(100% - 2rem, var(--content-width)) !important;
+  width: calc(100% - 2rem);
 }
 @media screen and (max-width: 62.5em) {
   .main-content {
