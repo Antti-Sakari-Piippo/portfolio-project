@@ -75,7 +75,7 @@
         font-size: 60px;
         color: var(--item-background-color);
         animation: fadein 1.2s;
-        @media screen and (max-width: 62.5em) {
+        @media screen and (max-width: 64.5em) {
           //1000em
           display: block;
           transition: opacity 2s ease-in;
@@ -95,7 +95,7 @@
 }
 
 .nav-toggle {
-  @media screen and (max-width: 62.5em) {
+  @media screen and (max-width: 64.5em) {
     // 1000px
     transition: all 0.4s ease-in-out;
     transform: translateX(0);
@@ -137,7 +137,7 @@
       margin-bottom: 0.5rem;
     }
   }
-  @media screen and (max-width: 62.5em) {
+  @media screen and (max-width: 64.5em) {
     // 1000px
     display: block;
     .lines-1,

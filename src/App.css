@@ -511,7 +511,7 @@ button rect {
   color: var(--item-background-color);
   animation: fadein 1.2s;
 }
-@media screen and (max-width: 62.5em) {
+@media screen and (max-width: 64.5em) {
   .Navbar-holder .Navbar .nav .fa-angle-left {
     display: block;
     transition: opacity 2s ease-in;
@@ -526,7 +526,7 @@ button rect {
   }
 }
 
-@media screen and (max-width: 62.5em) {
+@media screen and (max-width: 64.5em) {
   .nav-toggle {
     transition: all 0.4s ease-in-out;
     transform: translateX(0);
@@ -571,7 +571,7 @@ button rect {
 .nav-btn .lines-3:not(:last-child) {
   margin-bottom: 0.5rem;
 }
-@media screen and (max-width: 62.5em) {
+@media screen and (max-width: 64.5em) {
   .nav-btn {
     display: block;
   }
