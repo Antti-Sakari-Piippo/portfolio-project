@@ -58,8 +58,9 @@ a {
   display: grid;
   position: relative;
   .content {
-    $calcValue: calc(100% - 2rem);
-    width: min(#{$calcValue}, var(--content-width)) !important;
+    width: 100%;
+    max-width: calc(var(--content-width) + 2rem) !important;
+    padding: 0 1rem;
   }
   @media screen and (max-width: 62.5em) {
     // 1000px
