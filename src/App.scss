@@ -59,8 +59,9 @@ a {
   position: relative;
   .content {
     width: 100%;
-    max-width: calc(var(--content-width) + 2rem) !important;
-    padding: 0 1rem;
+    padding-inline: var(--content-padding);
+    display: grid;
+    place-content: center;
   }
   @media screen and (max-width: 62.5em) {
     // 1000px

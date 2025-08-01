@@ -8,7 +8,7 @@ function ImageSection() {
 			</div>
 			<div className="about-info">
 				<h4>
-					I am<span> Antti Piippo</span>
+					I'm<span> Antti Piippo</span>
 				</h4>
 				{/* <p className="about-text">I'm passionate about what I do and hard working.</p> */}
 				<div className="about-details">

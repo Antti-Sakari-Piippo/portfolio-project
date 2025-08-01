@@ -321,6 +321,7 @@ button.blog-link {
 :root {
   --card-width: 24rem;
   --content-width: 84%;
+  --content-padding: 2rem;
 }
 
 .flex {
@@ -338,6 +339,7 @@ button.blog-link {
   position: absolute;
   left: 0;
   opacity: 0.07;
+  pointer-events: none;
 }
 
 button {
@@ -439,7 +441,7 @@ button rect {
   border-right: 3px solid var(--item-background-color);
   transform-origin: left;
 }
-@media screen and (max-width: 62.5em) {
+@media screen and (max-width: 64.5em) {
   .Navbar-holder {
     transition: all 0.4s ease-in-out;
     transform: translateX(-100%);
@@ -802,8 +804,9 @@ a:hover {
 }
 .main-content .content {
   width: 100%;
-  max-width: calc(var(--content-width) + 2rem) !important;
-  padding: 0 1rem;
+  padding-inline: var(--content-padding);
+  display: grid;
+  place-content: center;
 }
 @media screen and (max-width: 62.5em) {
   .main-content {
